@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  --color-ravagx-bg: #121212;
+  --color-ravagx-card: #1C1C1E;
+  --color-ravagx-orange: #FF4D29;
+  --color-ravagx-gray: #A1A1AA;
+  --color-ravagx-border: #2A2A2E;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #121212;
+  color: #ffffff;
+}
