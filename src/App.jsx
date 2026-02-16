@@ -1,5 +1,4 @@
 import {
-  Zap,
   Shield,
   FileText,
   AlertTriangle,
@@ -9,8 +8,6 @@ import {
   Users,
   Truck,
   Download,
-  Menu,
-  X,
   TrafficCone,
   Phone,
   ChevronRight,
@@ -18,80 +15,14 @@ import {
   Gauge,
   Bell,
 } from "lucide-react";
-import { useState } from "react";
-
-/* ──────────────────────────────────────────────
-   NAVBAR
-   ────────────────────────────────────────────── */
-function Navbar() {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <nav className="sticky top-0 z-50 bg-ravagx-bg/90 backdrop-blur-md border-b border-ravagx-border">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        {/* Logo */}
-        <a href="#" className="flex items-center gap-2 text-2xl font-extrabold tracking-tight text-white">
-          <Zap className="h-7 w-7 text-ravagx-orange" />
-          RavaGx
-        </a>
-
-        {/* Desktop links */}
-        <div className="hidden items-center gap-8 md:flex">
-          <a href="#features" className="text-sm font-medium text-ravagx-gray transition hover:text-white">
-            Características
-          </a>
-          <a href="#app" className="text-sm font-medium text-ravagx-gray transition hover:text-white">
-            App
-          </a>
-          <a
-            href="#cta"
-            className="rounded-full border border-ravagx-orange px-5 py-2 text-sm font-semibold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white"
-          >
-            Unirse a la lista
-          </a>
-        </div>
-
-        {/* Mobile toggle */}
-        <button
-          onClick={() => setOpen(!open)}
-          className="text-white md:hidden"
-          aria-label="Toggle menu"
-        >
-          {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-        </button>
-      </div>
-
-      {/* Mobile menu */}
-      {open && (
-        <div className="flex flex-col gap-4 border-t border-ravagx-border bg-ravagx-bg px-6 py-5 md:hidden">
-          <a href="#features" onClick={() => setOpen(false)} className="text-sm font-medium text-ravagx-gray transition hover:text-white">
-            Características
-          </a>
-          <a href="#app" onClick={() => setOpen(false)} className="text-sm font-medium text-ravagx-gray transition hover:text-white">
-            App
-          </a>
-          <a
-            href="#cta"
-            onClick={() => setOpen(false)}
-            className="w-fit rounded-full border border-ravagx-orange px-5 py-2 text-sm font-semibold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white"
-          >
-            Unirse a la lista
-          </a>
-        </div>
-      )}
-    </nav>
-  );
-}
+import mockup from "./assets/mockup.png";
 
 /* ──────────────────────────────────────────────
    HERO
    ────────────────────────────────────────────── */
 function Hero() {
   return (
-    <section
-      id="app"
-      className="relative overflow-hidden bg-ravagx-bg"
-    >
+    <section id="app" className="relative overflow-hidden bg-ravagx-bg">
       {/* Decorative glow */}
       <div className="pointer-events-none absolute -top-40 left-1/2 -translate-x-1/2 h-[500px] w-[700px] rounded-full bg-ravagx-orange/10 blur-[120px]" />
 
@@ -125,18 +56,13 @@ function Hero() {
           </div>
         </div>
 
-        {/* Phone mockup placeholder */}
+        {/* Phone mockup */}
         <div className="flex flex-1 items-center justify-center">
-          <div className="relative flex h-[520px] w-[260px] items-center justify-center rounded-[2.5rem] border border-ravagx-orange/30 bg-ravagx-card shadow-[0_0_40px_rgba(255,77,41,0.15)]">
-            {/* Inner "screen" */}
-            <div className="flex flex-col items-center gap-4 px-6 text-center">
-              <Car className="h-14 w-14 text-ravagx-orange" />
-              <span className="text-lg font-bold text-white">RavaGx</span>
-              <span className="text-xs text-ravagx-gray">Captura de pantalla de la app</span>
-            </div>
-            {/* Notch */}
-            <div className="absolute top-4 left-1/2 h-5 w-20 -translate-x-1/2 rounded-full bg-ravagx-bg" />
-          </div>
+          <img
+            src={mockup}
+            alt="RavaGx App"
+            className="h-full w-full max-h-[600px] object-contain drop-shadow-[0_0_40px_rgba(255,77,41,0.15)]"
+          />
         </div>
       </div>
     </section>
@@ -162,7 +88,8 @@ function ServicesBar() {
     <section className="bg-ravagx-bg">
       <div className="mx-auto max-w-5xl px-6 py-16">
         <h2 className="mb-10 text-center text-2xl font-bold text-white sm:text-3xl">
-          Todo lo que necesitas, en <span className="text-ravagx-orange">un solo lugar</span>
+          Todo lo que necesitas, en{" "}
+          <span className="text-ravagx-orange">un solo lugar</span>
         </h2>
         <div className="grid grid-cols-4 gap-4 sm:grid-cols-4 md:grid-cols-8">
           {services.map(({ icon: Icon, label }) => (
@@ -213,7 +140,8 @@ function Features() {
     <section id="features" className="bg-ravagx-bg">
       <div className="mx-auto max-w-7xl px-6 py-24">
         <h2 className="mb-4 text-center text-3xl font-extrabold text-white sm:text-4xl">
-          Características <span className="text-ravagx-orange">Principales</span>
+          Características{" "}
+          <span className="text-ravagx-orange">Principales</span>
         </h2>
         <p className="mx-auto mb-14 max-w-2xl text-center text-ravagx-gray">
           Diseñadas para facilitar tu día a día como conductor en las calles del
@@ -243,9 +171,30 @@ function Features() {
    GARAGE PREVIEW (mirrors "Mi Garaje" from app)
    ────────────────────────────────────────────── */
 const vehicles = [
-  { plate: "CCC-789", brand: "Motrix", model: "Urban X Sport", year: 2020, color: "#FFFFFF", colorName: "Blanco" },
-  { plate: "BBB-456", brand: "Velocis", model: "Falcon GT", year: 2023, color: "#FF4D29", colorName: "Rojo" },
-  { plate: "AAA-123", brand: "Autonix", model: "Strider LX", year: 2021, color: "#3B82F6", colorName: "Azul" },
+  {
+    plate: "CCC-789",
+    brand: "Motrix",
+    model: "Urban X Sport",
+    year: 2020,
+    color: "#FFFFFF",
+    colorName: "Blanco",
+  },
+  {
+    plate: "BBB-456",
+    brand: "Velocis",
+    model: "Falcon GT",
+    year: 2023,
+    color: "#FF4D29",
+    colorName: "Rojo",
+  },
+  {
+    plate: "AAA-123",
+    brand: "Autonix",
+    model: "Strider LX",
+    year: 2021,
+    color: "#3B82F6",
+    colorName: "Azul",
+  },
 ];
 
 function GaragePreview() {
@@ -280,7 +229,9 @@ function GaragePreview() {
                     className="inline-block h-3 w-3 rounded-full border border-white/20"
                     style={{ backgroundColor: v.color }}
                   />
-                  <span className="text-xs text-ravagx-gray">{v.colorName}</span>
+                  <span className="text-xs text-ravagx-gray">
+                    {v.colorName}
+                  </span>
                 </div>
               </div>
             </div>
@@ -330,47 +281,16 @@ function CTA() {
 }
 
 /* ──────────────────────────────────────────────
-   FOOTER
-   ────────────────────────────────────────────── */
-function Footer() {
-  return (
-    <footer className="border-t border-ravagx-border bg-ravagx-card">
-      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 sm:flex-row">
-        <div className="flex items-center gap-2 text-lg font-bold text-white">
-          <Zap className="h-5 w-5 text-ravagx-orange" />
-          RavaGx
-        </div>
-
-        <div className="flex gap-6 text-sm text-ravagx-gray">
-          <a href="#" className="transition hover:text-white">
-            Términos y Condiciones
-          </a>
-          <a href="#" className="transition hover:text-white">
-            Políticas de Privacidad
-          </a>
-        </div>
-
-        <p className="text-xs text-ravagx-gray">
-          © {new Date().getFullYear()} RavaGx. Todos los derechos reservados.
-        </p>
-      </div>
-    </footer>
-  );
-}
-
-/* ──────────────────────────────────────────────
-   APP ROOT
+   HOME PAGE (Landing)
    ────────────────────────────────────────────── */
 export default function App() {
   return (
-    <div className="min-h-screen bg-ravagx-bg font-sans antialiased">
-      <Navbar />
+    <>
       <Hero />
       <ServicesBar />
       <Features />
       <GaragePreview />
       <CTA />
-      <Footer />
-    </div>
+    </>
   );
 }

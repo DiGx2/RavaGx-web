@@ -1,0 +1,144 @@
+Política de Privacidad de RavaGx
+Última actualización: 08 de febrero de 2026
+RavaGx (“nosotros”, “nuestro”, “la aplicación”) opera la aplicación móvil RavaGx, disponible en Google Play Store (el “Servicio”). Esta Política de Privacidad describe cómo recopilamos, usamos, almacenamos, protegemos y compartimos su información personal cuando utiliza nuestro Servicio.
+Al descargar, instalar o utilizar RavaGx, usted acepta las prácticas descritas en esta Política de Privacidad. Si no está de acuerdo, le pedimos que no utilice el Servicio.
+
+1. Datos que recopilamos
+1.1 Información de cuenta
+Nombre completo: Para personalizar su experiencia y perfil público.
+Correo electrónico: Para autenticación, recuperación de cuenta y comunicaciones del servicio.
+Número de teléfono (opcional): Para contacto de emergencia y recuperación de cuenta.
+Contraseña: Almacenada de forma cifrada mediante hash seguro. Nunca almacenamos contraseñas en texto plano.
+
+1.2 Datos del vehículo
+Marca, modelo, año, placa y color del vehículo.
+Fechas de vencimiento de documentos legales (SOAT, Revisión Técnica, Licencia de Conducir).
+Historial de kilometraje y registros de mantenimiento.
+
+1.3 Documentos (Guantera Digital)
+Fotografías de documentos vehiculares (SOAT, tarjeta de propiedad, licencia, seguros) que usted sube voluntariamente.
+Estas imágenes se almacenan de forma segura en servidores cifrados y solo usted tiene acceso a ellas.
+
+1.4 Ubicación (GPS)
+Tipo: Ubicación precisa del dispositivo (GPS).
+Momento de recopilación: Únicamente mientras la aplicación está abierta y en uso (primer plano). No recopilamos ubicación en segundo plano.
+Propósito:
+Mostrar talleres mecánicos, estaciones de servicio y servicios de emergencia cercanos.
+Verificar la ubicación de reportes viales en la comunidad.
+Enviar alertas de seguridad vial relevantes para su zona.
+Permiso: La aplicación solicita su autorización explícita antes de acceder a su ubicación. Puede revocar este permiso en cualquier momento desde la configuración de su dispositivo.
+
+1.5 Cámara y galería de fotos
+Cámara: Se solicita acceso para fotografiar documentos vehiculares dentro de la Guantera Digital.
+Galería: Se solicita acceso para seleccionar fotos existentes de documentos o para reportar alertas viales en la comunidad.
+Propósito exclusivo: Subir documentos vehiculares y fotografías de alertas comunitarias. No accedemos a la cámara ni galería sin su acción explícita.
+
+1.6 Notificaciones push
+Token del dispositivo: Al aceptar notificaciones, se genera un identificador único (Expo Push Token) que permite enviar notificaciones a su dispositivo.
+Funcionamiento: Las notificaciones push se entregan a través de Firebase Cloud Messaging (FCM), un servicio del sistema operativo Android proporcionado por Google. RavaGx no ejecuta procesos en segundo plano. La entrega de notificaciones cuando la aplicación está cerrada es gestionada nativamente por el servicio FCM de Android.
+Tipos de notificaciones:
+Alertas de vencimiento de documentos legales.
+Recordatorios de mantenimiento.
+Alertas de seguridad vial.
+Novedades del servicio.
+Control del usuario: Puede desactivar las notificaciones desde la configuración de su dispositivo o desde Perfil → Notificaciones dentro de la aplicación.
+
+1.7 Contenido generado por el usuario
+Alertas de tráfico y seguridad vial publicadas en la sección Comunidad.
+Comentarios y votos en alertas de otros usuarios.
+Fotografías opcionales adjuntas a reportes viales.
+
+1.8 Datos de uso (recopilación automática)
+Tipo de dispositivo, versión del sistema operativo y versión de la aplicación.
+Registros de errores anónimos para mejorar la estabilidad del servicio.
+No utilizamos cookies, rastreadores de publicidad ni herramientas de analítica de terceros.
+
+2. Uso de los datos
+Utilizamos sus datos exclusivamente para:
+Proveer, operar y mantener el Servicio.
+Autenticar su identidad y proteger su cuenta.
+Notificarle sobre vencimientos de documentos legales (SOAT, Revisión Técnica, Licencia).
+Enviar recordatorios de mantenimiento vehicular predictivo.
+Mostrar servicios mecánicos y de emergencia cercanos a su ubicación.
+Facilitar la comunicación entre usuarios en la sección Comunidad.
+Mejorar y personalizar la experiencia del usuario.
+Responder a solicitudes de soporte técnico.
+Cumplir con obligaciones legales aplicables.
+No vendemos, alquilamos ni comercializamos sus datos personales a terceros con fines publicitarios o de marketing.
+
+3. Compartición de datos
+Sus datos personales no se comparten con terceros excepto en los siguientes casos limitados:
+3.1 Proveedores de infraestructura
+RavaGx utiliza proveedores externos esenciales para el funcionamiento del Servicio:
+• Supabase Función: Autenticación y base de datos Datos compartidos: Credenciales cifradas, datos de perfil y vehículos Política de privacidad: https://supabase.com/privacy
+• Expo (EAS) Función: Entrega de notificaciones push Datos compartidos: Token del dispositivo (identificador anónimo) Política de privacidad: https://expo.dev/privacy
+• Google Firebase (FCM) Función: Canal de entrega de notificaciones push Datos compartidos: Token del dispositivo Política de privacidad: https://firebase.google.com/support/privacy
+• Google Maps Función: Visualización de mapas y geolocalización de servicios Datos compartidos: Coordenadas de ubicación (en uso) Política de privacidad: https://policies.google.com/privacy
+
+3.2 Obligación legal
+Podemos divulgar datos personales si es requerido por ley, proceso judicial, solicitud gubernamental o para proteger los derechos, seguridad o propiedad de RavaGx y sus usuarios.
+
+3.3 Contenido público
+Las alertas viales publicadas en la sección Comunidad (tipo de alerta, descripción, foto opcional y ubicación aproximada) son visibles para otros usuarios de RavaGx en la zona. Su nombre o datos de contacto no se muestran públicamente en las alertas.
+
+4. Almacenamiento y seguridad de los datos
+Cifrado en tránsito: Todas las comunicaciones se realizan mediante HTTPS/TLS.
+Cifrado en reposo: Los datos almacenados están cifrados.
+Contraseñas: Hash criptográfico unidireccional (bcrypt).
+Documentos fotográficos: Buckets privados con políticas de seguridad a nivel de fila (Row Level Security).
+Aislamiento de datos: Cada usuario solo puede acceder a sus propios datos.
+Infraestructura: Centros de datos con estándares de seguridad industriales.
+
+5. Retención y eliminación de datos
+5.1 Retención
+Conservamos sus datos personales mientras su cuenta esté activa y sea necesario para proveer el Servicio.
+
+5.2 Eliminación de cuenta
+Puede solicitar la eliminación total e irreversible de su cuenta desde la aplicación:
+Perfil → Editar Perfil → Eliminar mi cuenta
+Al eliminar su cuenta:
+Se borran permanentemente todos sus datos personales, vehículos, documentos, historial y contenido generado.
+Los datos son eliminados de nuestros servidores y bases de datos.
+Esta acción es irreversible y no se puede deshacer.
+
+5.3 Solicitud por email
+También puede solicitar la eliminación enviando un correo a ravagx.x@gmail.com con el asunto “Solicitud de eliminación de datos”. Procesaremos su solicitud en un plazo máximo de 30 días.
+
+6. Derechos del usuario
+Usted tiene derecho a:
+Acceso.
+Rectificación.
+Eliminación.
+Portabilidad.
+Revocación de consentimiento.
+Oposición.
+Para ejercer estos derechos, contáctenos en ravagx.x@gmail.com.
+
+7. Privacidad de menores
+RavaGx no está dirigida a menores de 16 años. No recopilamos intencionalmente información personal de menores de 16 años. Si descubrimos que hemos recopilado datos de un menor sin consentimiento, eliminaremos dicha información.
+
+8. Permisos de la aplicación
+RavaGx solicita los siguientes permisos, cada uno con un propósito específico:
+• Internet Propósito: Comunicación con servidores para sincronizar datos Obligatorio: Sí
+• Ubicación (GPS) Propósito: Mostrar servicios cercanos y verificar reportes viales Obligatorio: No (opcional)
+• Cámara Propósito: Fotografiar documentos vehiculares Obligatorio: No (opcional)
+• Almacenamiento / Galería Propósito: Seleccionar fotos de documentos existentes Obligatorio: No (opcional)
+• Notificaciones Propósito: Alertas de vencimiento y seguridad vial Obligatorio: No (opcional)
+Ningún permiso se activa sin su autorización explícita previa.
+
+9. Transferencias internacionales de datos
+Nuestros servidores pueden estar ubicados fuera de su país de residencia. Al utilizar RavaGx, usted consiente la transferencia de sus datos a servidores donde operan nuestros proveedores de infraestructura (Supabase, Google, Expo), los cuales cumplen estándares internacionales de protección de datos.
+
+10. Cambios a esta política
+Podemos actualizar esta Política de Privacidad periódicamente. Le notificaremos cambios significativos mediante:
+Una notificación dentro de la aplicación.
+La actualización de la fecha de “Última actualización”.
+
+11. Legislación aplicable
+Esta Política de Privacidad se rige por las leyes de la República del Perú, incluyendo la Ley N° 29733 – Ley de Protección de Datos Personales y su reglamento.
+
+12. Contacto
+Si tiene preguntas o desea ejercer sus derechos:
+Email: ravagx.x@gmail.com Soporte en la app: Perfil → Ayuda y Soporte → Contactar Soporte Tiempo de respuesta: 24–48 horas hábiles
+RavaGx — Tu asistente vehicular inteligente.
+

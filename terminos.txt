@@ -1,0 +1,152 @@
+Términos y Condiciones de Uso — RavaGx
+Última actualización: 08 de febrero de 2026
+Estos Términos y Condiciones (“Términos”) regulan el acceso y uso de la aplicación móvil RavaGx (“la Aplicación”, “el Servicio”), desarrollada y operada por RavaGx Team (“nosotros”, “nuestro”).
+Al descargar, instalar, registrarse o utilizar RavaGx, usted (“el Usuario”) declara que ha leído, comprendido y aceptado estos Términos en su totalidad. Si no está de acuerdo con alguno de ellos, le pedimos que no utilice la Aplicación.
+
+1. Descripción del Servicio
+RavaGx es una herramienta de gestión y asistencia vehicular que ofrece las siguientes funcionalidades:
+Mi Garaje: Registro y administración de vehículos (placa, marca, modelo, año, color).
+Semáforo Legal: Seguimiento de fechas de vencimiento de documentos legales (SOAT, Revisión Técnica, Licencia de Conducir).
+Guantera Digital: Almacenamiento seguro de fotografías de documentos vehiculares.
+Mantenimiento Predictivo: Estimaciones de mantenimiento basadas en el historial de kilometraje del vehículo.
+Comunidad: Red de alertas viales en tiempo real generadas por los usuarios.
+Localizador de Servicios: Búsqueda de talleres mecánicos, estaciones de servicio, servicios de grúa y otros proveedores cercanos.
+Seguros: Registro informativo de pólizas de seguros vehiculares.
+Notificaciones: Alertas de vencimiento de documentos, recordatorios de mantenimiento y avisos de seguridad vial.
+Gamificación (RavaPoints): Sistema de puntos de reputación por el uso activo y responsable de la Aplicación.
+
+2. Requisitos para el Uso
+Para utilizar RavaGx, usted debe:
+Ser mayor de 16 años de edad.
+Proporcionar información veraz, precisa y actualizada durante el registro y uso de la Aplicación.
+Contar con un dispositivo móvil compatible y acceso a internet.
+Aceptar estos Términos y nuestra Política de Privacidad.
+
+3. Cuenta de Usuario
+3.1 Registro
+Para acceder al Servicio, debe crear una cuenta proporcionando su nombre completo, correo electrónico y una contraseña segura. Usted es responsable de mantener la confidencialidad de sus credenciales.
+
+3.2 Seguridad de la Cuenta
+Usted se compromete a:
+No compartir sus credenciales de acceso con terceros.
+Notificarnos inmediatamente si sospecha un acceso no autorizado a su cuenta.
+Aceptar la responsabilidad por todas las actividades realizadas bajo su cuenta.
+
+3.3 Eliminación de Cuenta
+Puede eliminar su cuenta en cualquier momento desde:
+Perfil → Editar Perfil → Eliminar mi cuenta
+La eliminación es permanente e irreversible y conlleva la supresión de todos sus datos personales, vehículos, documentos y contenido generado.
+
+4. Naturaleza del Servicio y Descargos de Responsabilidad
+4.1 RavaGx NO es un taller mecánico
+La Aplicación facilita la búsqueda y localización de proveedores de servicios vehiculares (talleres, grúas, baterías, etc.), pero no presta directamente servicios mecánicos, de reparación ni de mantenimiento.
+RavaGx no garantiza, avala ni se responsabiliza por la calidad, puntualidad, seguridad o resultado de los servicios prestados por terceros proveedores.
+
+4.2 RavaGx NO es una entidad gubernamental
+La información sobre documentos legales (SOAT, Revisión Técnica, Papeletas, Licencia de Conducir) es referencial e informativa. No constituye un registro oficial ni reemplaza la consulta directa en plataformas gubernamentales.
+El Usuario es el único responsable de verificar el estado de sus documentos ante las autoridades competentes.
+
+4.3 Predicciones de Mantenimiento
+Las estimaciones se basan en algoritmos que analizan el historial de kilometraje registrado por el Usuario. Son aproximaciones orientativas y no sustituyen el diagnóstico profesional de un mecánico certificado.
+RavaGx no se responsabiliza por fallas mecánicas, averías o daños derivados de la confianza exclusiva en estas predicciones.
+
+4.4 Modo SOS y Alertas de Emergencia
+Las funciones de emergencia son herramientas de asistencia complementaria. No sustituyen ni reemplazan a los servicios oficiales de emergencia (Policía Nacional del Perú, Bomberos, SAMU u otros).
+En caso de emergencia real, contacte siempre a los servicios oficiales.
+
+4.5 Seguros
+La sección de seguros permite registrar información referencial de pólizas. RavaGx no es intermediario, corredor ni agente de seguros y no gestiona, vende ni tramita pólizas.
+
+5. Obligaciones y Responsabilidades del Usuario
+El Usuario se compromete a:
+Proporcionar información veraz y actualizada.
+Utilizar la Aplicación de manera lícita, ética y conforme a estos Términos.
+No publicar alertas falsas, engañosas, spam o contenido ofensivo, violento, sexual o ilegal.
+No manipular ni abusar del sistema de gamificación (RavaPoints).
+No acceder a cuentas o datos de otros usuarios.
+No realizar ingeniería inversa ni intentar obtener el código fuente.
+No utilizar bots, scripts automatizados ni scraping.
+Respetar los derechos de otros usuarios y las leyes aplicables.
+
+6. Moderación y Sanciones
+RavaGx se reserva el derecho de:
+Eliminar contenido que viole estos Términos.
+Suspender temporalmente cuentas por infracciones moderadas.
+Eliminar permanentemente cuentas por infracciones graves o reiteradas, incluyendo:
+Publicación reiterada de alertas falsas.
+Manipulación del sistema de puntos.
+Acoso u hostigamiento.
+Uso de la Aplicación para actividades ilegales.
+Las decisiones de moderación pueden aplicarse sin previo aviso cuando la gravedad lo justifique.
+
+7. Propiedad Intelectual
+7.1 Derechos de RavaGx
+Todo el contenido, diseño, interfaz, logotipos, marcas, código fuente, algoritmos y bases de datos son propiedad exclusiva de RavaGx Team y están protegidos por ley.
+
+7.2 Restricciones
+Queda prohibido:
+Copiar, reproducir o modificar la Aplicación.
+Realizar ingeniería inversa.
+Usar marcas o logotipos sin autorización escrita.
+Crear productos derivados.
+
+7.3 Contenido del Usuario
+Al publicar contenido en Comunidad, usted otorga a RavaGx una licencia no exclusiva, gratuita y revocable para mostrar dicho contenido dentro de la Aplicación.
+Usted conserva la titularidad de su contenido y puede eliminarlo. Al eliminar su cuenta, todo el contenido asociado se elimina permanentemente.
+
+8. Limitación de Responsabilidad
+En la máxima medida permitida por ley:
+La Aplicación se proporciona “TAL CUAL” y “SEGÚN DISPONIBILIDAD”, sin garantías.
+RavaGx no garantiza ausencia de errores, interrupciones o fallas.
+RavaGx no es responsable por daños derivados de:
+Uso o imposibilidad de uso de la Aplicación.
+Fallas mecánicas no previstas.
+Información incorrecta de terceros.
+Pérdida de datos fuera de su control.
+Acciones de proveedores de servicios vehiculares.
+Interrupciones por mantenimiento o fuerza mayor.
+La responsabilidad total de RavaGx no excederá lo pagado por el Usuario en los últimos 12 meses o el equivalente a 1 dólar estadounidense, lo que sea mayor.
+
+9. Indemnización
+El Usuario acepta indemnizar y mantener indemne a RavaGx Team frente a reclamaciones derivadas de:
+Incumplimiento de estos Términos.
+Uso indebido de la Aplicación.
+Violación de derechos de terceros.
+Contenido publicado en Comunidad.
+
+10. Disponibilidad y Modificaciones del Servicio
+RavaGx puede modificar, suspender o descontinuar funcionalidades en cualquier momento. Algunas actualizaciones pueden ser obligatorias. No garantizamos disponibilidad permanente.
+
+11. Servicios Gratuitos y Futuros Servicios de Pago
+El uso actual de RavaGx es gratuito. En el futuro, podrán ofrecerse servicios premium opcionales, informando previamente precios y condiciones.
+
+12. Privacidad
+El tratamiento de datos personales se rige por la Política de Privacidad, que forma parte integral de estos Términos.
+
+13. Resolución de Disputas
+13.1 Negociación Directa
+Las controversias se intentarán resolver mediante negociación directa escribiendo a ravagx.x@gmail.com.
+
+13.2 Jurisdicción
+Si no se resuelve en 30 días, las partes se someten a los tribunales de Lima, Perú.
+
+14. Modificaciones a estos Términos
+Podemos actualizar estos Términos. Le notificaremos mediante:
+Notificación en la Aplicación.
+Actualización de la fecha de “Última actualización”.
+El uso continuado implica aceptación. Si no está de acuerdo, debe dejar de usar la Aplicación y eliminar su cuenta.
+
+15. Divisibilidad
+Si alguna disposición es inválida, las restantes continuarán vigentes.
+
+16. Acuerdo Completo
+Estos Términos y la Política de Privacidad constituyen el acuerdo completo entre el Usuario y RavaGx.
+
+17. Ley Aplicable
+Se rigen por las leyes de la República del Perú, incluyendo la Ley N° 29571 y normativa aplicable.
+
+18. Contacto
+Para consultas o reclamos:
+Email: ravagx.x@gmail.com Soporte en la app: Perfil → Ayuda y Soporte → Contactar Soporte Tiempo de respuesta: 24–48 horas hábiles
+RavaGx — Tu asistente vehicular inteligente.
+
