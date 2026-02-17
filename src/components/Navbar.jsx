@@ -32,12 +32,14 @@ export default function Navbar() {
           >
             App
           </a>
-          <a
-            href="/#cta"
-            className="rounded-full border border-ravagx-orange px-5 py-2 text-sm font-semibold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white"
+          <button
+            onClick={() =>
+              window.dispatchEvent(new CustomEvent("open-waitlist"))
+            }
+            className="rounded-full border border-ravagx-orange px-5 py-2 text-sm font-semibold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white cursor-pointer"
           >
             Unirse a la lista
-          </a>
+          </button>
         </div>
 
         {/* Mobile toggle */}
@@ -67,13 +69,15 @@ export default function Navbar() {
           >
             App
           </a>
-          <a
-            href="/#cta"
-            onClick={() => setOpen(false)}
-            className="w-fit rounded-full border border-ravagx-orange px-5 py-2 text-sm font-semibold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white"
+          <button
+            onClick={() => {
+              setOpen(false);
+              window.dispatchEvent(new CustomEvent("open-waitlist"));
+            }}
+            className="w-fit rounded-full border border-ravagx-orange px-5 py-2 text-sm font-semibold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white cursor-pointer"
           >
             Unirse a la lista
-          </a>
+          </button>
         </div>
       )}
     </nav>

@@ -15,12 +15,14 @@ import {
   Gauge,
   Bell,
 } from "lucide-react";
+import { useState, useEffect } from "react";
 import mockup from "./assets/mockup.png";
+import WaitlistModal from "./components/WaitlistModal";
 
 /* ──────────────────────────────────────────────
    HERO
    ────────────────────────────────────────────── */
-function Hero() {
+function Hero({ onOpenWaitlist }) {
   return (
     <section id="app" className="relative overflow-hidden bg-ravagx-bg">
       {/* Decorative glow */}
@@ -39,13 +41,13 @@ function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row lg:items-start">
-            <a
-              href="#cta"
-              className="inline-flex items-center gap-2 rounded-full bg-ravagx-orange px-8 py-3.5 text-base font-bold text-white shadow-[0_0_20px_rgba(255,77,41,0.5)] transition hover:shadow-[0_0_30px_rgba(255,77,41,0.7)] hover:brightness-110"
+            <button
+              onClick={onOpenWaitlist}
+              className="inline-flex items-center gap-2 rounded-full bg-ravagx-orange px-8 py-3.5 text-base font-bold text-white shadow-[0_0_20px_rgba(255,77,41,0.5)] transition hover:shadow-[0_0_30px_rgba(255,77,41,0.7)] hover:brightness-110 cursor-pointer"
             >
               <Download className="h-5 w-5" />
-              Descargar App
-            </a>
+              Unirse a la Lista de Espera
+            </button>
             <a
               href="#features"
               className="inline-flex items-center gap-1 rounded-full border border-ravagx-border px-6 py-3.5 text-sm font-semibold text-ravagx-gray transition hover:border-ravagx-orange hover:text-white"
@@ -245,7 +247,7 @@ function GaragePreview() {
 /* ──────────────────────────────────────────────
    CTA / DOWNLOAD SECTION
    ────────────────────────────────────────────── */
-function CTA() {
+function CTA({ onOpenWaitlist }) {
   return (
     <section id="cta" className="bg-ravagx-bg">
       <div className="mx-auto max-w-4xl px-6 py-24 text-center">
@@ -259,20 +261,20 @@ function CTA() {
             multas e inspección desde la palma de su mano.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a
-              href="#"
-              className="inline-flex items-center gap-2 rounded-full bg-ravagx-orange px-8 py-4 text-base font-bold text-white shadow-[0_0_20px_rgba(255,77,41,0.5)] transition hover:shadow-[0_0_30px_rgba(255,77,41,0.7)] hover:brightness-110"
+            <button
+              onClick={onOpenWaitlist}
+              className="inline-flex items-center gap-2 rounded-full bg-ravagx-orange px-8 py-4 text-base font-bold text-white shadow-[0_0_20px_rgba(255,77,41,0.5)] transition hover:shadow-[0_0_30px_rgba(255,77,41,0.7)] hover:brightness-110 cursor-pointer"
             >
               <Download className="h-5 w-5" />
-              Descargar en Google Play
-            </a>
-            <a
-              href="#"
-              className="inline-flex items-center gap-2 rounded-full border border-ravagx-orange px-8 py-4 text-base font-bold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white"
+              Unirse a la Lista de Espera
+            </button>
+            <button
+              onClick={onOpenWaitlist}
+              className="inline-flex items-center gap-2 rounded-full border border-ravagx-orange px-8 py-4 text-base font-bold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white cursor-pointer"
             >
               <Bell className="h-5 w-5" />
               Notifícame al lanzamiento
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -284,13 +286,23 @@ function CTA() {
    HOME PAGE (Landing)
    ────────────────────────────────────────────── */
 export default function App() {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  // Listen for navbar "open-waitlist" custom event
+  useEffect(() => {
+    const handler = () => setModalOpen(true);
+    window.addEventListener("open-waitlist", handler);
+    return () => window.removeEventListener("open-waitlist", handler);
+  }, []);
+
   return (
     <>
-      <Hero />
+      <Hero onOpenWaitlist={() => setModalOpen(true)} />
       <ServicesBar />
       <Features />
       <GaragePreview />
-      <CTA />
+      <CTA onOpenWaitlist={() => setModalOpen(true)} />
+      <WaitlistModal open={modalOpen} onClose={() => setModalOpen(false)} />
     </>
   );
 }
