@@ -13,16 +13,16 @@ import {
   ChevronRight,
   Car,
   Gauge,
-  Bell,
 } from "lucide-react";
-import { useState, useEffect } from "react";
 import mockup from "./assets/mockup.png";
-import WaitlistModal from "./components/WaitlistModal";
+
+const PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.ravagx.asistente&pcampaignid=web_share";
 
 /* ──────────────────────────────────────────────
    HERO
    ────────────────────────────────────────────── */
-function Hero({ onOpenWaitlist }) {
+function Hero() {
   return (
     <section id="app" className="relative overflow-hidden bg-ravagx-bg">
       {/* Decorative glow */}
@@ -41,13 +41,15 @@ function Hero({ onOpenWaitlist }) {
           </p>
 
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row lg:items-start">
-            <button
-              onClick={onOpenWaitlist}
-              className="inline-flex items-center gap-2 rounded-full bg-ravagx-orange px-8 py-3.5 text-base font-bold text-white shadow-[0_0_20px_rgba(255,77,41,0.5)] transition hover:shadow-[0_0_30px_rgba(255,77,41,0.7)] hover:brightness-110 cursor-pointer"
+            <a
+              href={PLAY_STORE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-ravagx-orange px-8 py-3.5 text-base font-bold text-white shadow-[0_0_20px_rgba(255,77,41,0.5)] transition hover:shadow-[0_0_30px_rgba(255,77,41,0.7)] hover:brightness-110"
             >
               <Download className="h-5 w-5" />
-              Unirse a la Lista de Espera
-            </button>
+              Descargar en Google Play
+            </a>
             <a
               href="#features"
               className="inline-flex items-center gap-1 rounded-full border border-ravagx-border px-6 py-3.5 text-sm font-semibold text-ravagx-gray transition hover:border-ravagx-orange hover:text-white"
@@ -247,7 +249,7 @@ function GaragePreview() {
 /* ──────────────────────────────────────────────
    CTA / DOWNLOAD SECTION
    ────────────────────────────────────────────── */
-function CTA({ onOpenWaitlist }) {
+function CTA() {
   return (
     <section id="cta" className="bg-ravagx-bg">
       <div className="mx-auto max-w-4xl px-6 py-24 text-center">
@@ -260,21 +262,16 @@ function CTA({ onOpenWaitlist }) {
             Únete a miles de conductores peruanos que ya gestionan su SOAT,
             multas e inspección desde la palma de su mano.
           </p>
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <button
-              onClick={onOpenWaitlist}
-              className="inline-flex items-center gap-2 rounded-full bg-ravagx-orange px-8 py-4 text-base font-bold text-white shadow-[0_0_20px_rgba(255,77,41,0.5)] transition hover:shadow-[0_0_30px_rgba(255,77,41,0.7)] hover:brightness-110 cursor-pointer"
+          <div className="mt-10 flex items-center justify-center">
+            <a
+              href={PLAY_STORE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-ravagx-orange px-8 py-4 text-base font-bold text-white shadow-[0_0_20px_rgba(255,77,41,0.5)] transition hover:shadow-[0_0_30px_rgba(255,77,41,0.7)] hover:brightness-110"
             >
               <Download className="h-5 w-5" />
-              Unirse a la Lista de Espera
-            </button>
-            <button
-              onClick={onOpenWaitlist}
-              className="inline-flex items-center gap-2 rounded-full border border-ravagx-orange px-8 py-4 text-base font-bold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white cursor-pointer"
-            >
-              <Bell className="h-5 w-5" />
-              Notifícame al lanzamiento
-            </button>
+              Descargar RavaGx Ahora
+            </a>
           </div>
         </div>
       </div>
@@ -286,23 +283,13 @@ function CTA({ onOpenWaitlist }) {
    HOME PAGE (Landing)
    ────────────────────────────────────────────── */
 export default function App() {
-  const [modalOpen, setModalOpen] = useState(false);
-
-  // Listen for navbar "open-waitlist" custom event
-  useEffect(() => {
-    const handler = () => setModalOpen(true);
-    window.addEventListener("open-waitlist", handler);
-    return () => window.removeEventListener("open-waitlist", handler);
-  }, []);
-
   return (
     <>
-      <Hero onOpenWaitlist={() => setModalOpen(true)} />
+      <Hero />
       <ServicesBar />
       <Features />
       <GaragePreview />
-      <CTA onOpenWaitlist={() => setModalOpen(true)} />
-      <WaitlistModal open={modalOpen} onClose={() => setModalOpen(false)} />
+      <CTA />
     </>
   );
 }

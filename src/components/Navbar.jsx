@@ -32,14 +32,14 @@ export default function Navbar() {
           >
             App
           </a>
-          <button
-            onClick={() =>
-              window.dispatchEvent(new CustomEvent("open-waitlist"))
-            }
-            className="rounded-full border border-ravagx-orange px-5 py-2 text-sm font-semibold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white cursor-pointer"
+          <a
+            href="https://play.google.com/store/apps/details?id=com.ravagx.asistente&pcampaignid=web_share"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-ravagx-orange px-5 py-2 text-sm font-semibold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white"
           >
-            Unirse a la lista
-          </button>
+            Descargar App
+          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -69,15 +69,15 @@ export default function Navbar() {
           >
             App
           </a>
-          <button
-            onClick={() => {
-              setOpen(false);
-              window.dispatchEvent(new CustomEvent("open-waitlist"));
-            }}
-            className="w-fit rounded-full border border-ravagx-orange px-5 py-2 text-sm font-semibold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white cursor-pointer"
+          <a
+            href="https://play.google.com/store/apps/details?id=com.ravagx.asistente&pcampaignid=web_share"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setOpen(false)}
+            className="w-fit rounded-full border border-ravagx-orange px-5 py-2 text-sm font-semibold text-ravagx-orange transition hover:bg-ravagx-orange hover:text-white"
           >
-            Unirse a la lista
-          </button>
+            Descargar App
+          </a>
         </div>
       )}
     </nav>
