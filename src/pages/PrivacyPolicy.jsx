@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
           Política de Privacidad
         </h1>
         <p className="mb-4 text-sm text-ravagx-gray">
-          Última actualización: 08 de febrero de 2026
+          Última actualización: 30 de abril de 2026 (v2.0)
         </p>
         <p className="mb-12 text-gray-300 leading-relaxed">
           RavaGx (&quot;nosotros&quot;, &quot;nuestro&quot;, &quot;la
@@ -59,16 +59,34 @@ export default function PrivacyPolicy() {
             </ul>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
-              1.2 Datos del vehículo
+              1.2 Datos del vehículo (Mi Cabina y Mi Garaje)
             </h3>
+            <p className="mb-2">
+              Los datos ingresados por el Usuario en "Mi Cabina" y "Mi Garaje"
+              se almacenan de forma segura para proveer recordatorios
+              personalizados, alertas tempranas y el funcionamiento del score
+              del vehículo. Estos incluyen:
+            </p>
             <ul className="list-disc space-y-1.5 pl-6 mb-4">
-              <li>Marca, modelo, año, placa y color del vehículo.</li>
+              <li>
+                Placa, marca, modelo, año, color y características técnicas del
+                vehículo.
+              </li>
               <li>
                 Fechas de vencimiento de documentos legales (SOAT, Revisión
-                Técnica, Licencia de Conducir).
+                Técnica, Licencia de Conducir, seguros).
               </li>
-              <li>Historial de kilometraje y registros de mantenimiento.</li>
+              <li>
+                Historial de kilometraje, recordatorios de mantenimiento y
+                eventos asociados al vehículo.
+              </li>
             </ul>
+            <p className="mb-4">
+              <strong className="text-white">Finalidad:</strong> Generar
+              alertas, recordatorios, el score del vehículo y métricas
+              referenciales dentro de Mi Cabina. Estos datos no se comparten
+              públicamente ni se venden a terceros.
+            </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
               1.3 Documentos (Guantera Digital)
@@ -81,17 +99,48 @@ export default function PrivacyPolicy() {
             </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
-              1.4 Ubicación (GPS)
+              1.4 Datos de Ubicación (Location Data)
             </h3>
-            <ul className="list-disc space-y-1.5 pl-6 mb-2">
+            <p className="mb-3">
+              Para el correcto funcionamiento del{" "}
+              <strong className="text-white">Radar de Fotopapeletas</strong>, la
+              Aplicación recopila datos de{" "}
+              <strong className="text-white">
+                ubicación precisa en tiempo real
+              </strong>{" "}
+              mediante un servicio en primer plano (Foreground Service) del
+              sistema operativo Android. Este servicio permite que el Radar
+              permanezca activo{" "}
+              <strong className="text-white">
+                incluso con la pantalla del dispositivo apagada
+              </strong>
+              , mostrando una notificación persistente que informa al usuario
+              que la ubicación está siendo utilizada.
+            </p>
+            <ul className="list-disc space-y-1.5 pl-6 mb-3">
               <li>
                 <strong className="text-white">Tipo:</strong> Ubicación precisa
                 del dispositivo (GPS).
               </li>
               <li>
                 <strong className="text-white">Momento de recopilación:</strong>{" "}
-                Únicamente mientras la aplicación está abierta y en uso (primer
-                plano). No recopilamos ubicación en segundo plano.
+                Mientras la aplicación está en uso (primer plano) y cuando el
+                Radar de Fotopapeletas está activo mediante Foreground Service.
+              </li>
+              <li>
+                <strong className="text-white">Cálculo efímero:</strong> La
+                distancia entre su posición y las cámaras de velocidad se
+                calcula de forma efímera exclusivamente para disparar las
+                alertas en tiempo real. No almacenamos ni registramos
+                historiales de rutas, trayectos ni recorridos del usuario.
+              </li>
+              <li>
+                <strong className="text-white">
+                  No vendemos datos de ubicación:
+                </strong>{" "}
+                No vendemos, comercializamos ni compartimos historiales de rutas
+                o datos de ubicación con terceros con fines publicitarios, de
+                perfilamiento ni de ninguna otra índole comercial.
               </li>
             </ul>
             <p className="mb-2">Propósito:</p>
@@ -104,12 +153,31 @@ export default function PrivacyPolicy() {
                 Verificar la ubicación de reportes viales en la comunidad.
               </li>
               <li>Enviar alertas de seguridad vial relevantes para su zona.</li>
+              <li>
+                <strong className="text-white">Radar de Fotopapeletas:</strong>{" "}
+                Calcular la proximidad a cámaras de velocidad registradas y
+                emitir alertas sonoras y visuales preventivas.
+              </li>
             </ul>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              1.4.1 Reportes Comunitarios del Radar
+            </h3>
+            <p className="mb-4">
+              Cuando un usuario envía un reporte comunitario (por ejemplo,
+              señalar una cámara de velocidad o un evento vial), la Aplicación
+              procesa la ubicación del reporte de{" "}
+              <strong className="text-white">forma anónima</strong> para
+              compartirla con otros conductores en la zona. No se asocia
+              públicamente ninguna información personal del reportante (nombre,
+              correo, placa) al reporte compartido con la comunidad.
+            </p>
             <p className="mb-4">
               <strong className="text-white">Permiso:</strong> La aplicación
               solicita su autorización explícita antes de acceder a su
-              ubicación. Puede revocar este permiso en cualquier momento desde
-              la configuración de su dispositivo.
+              ubicación. El permiso de ubicación en primer plano (Foreground
+              Service) se solicita por separado y es necesario para que el Radar
+              funcione con la pantalla apagada. Puede revocar estos permisos en
+              cualquier momento desde la configuración de su dispositivo.
             </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
@@ -174,6 +242,49 @@ export default function PrivacyPolicy() {
               <li>Comentarios y votos en alertas de otros usuarios.</li>
               <li>Fotografías opcionales adjuntas a reportes viales.</li>
             </ul>
+
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              1.7.1 Datos Financieros y de Pago (Programa RavaCoins)
+            </h3>
+            <p className="mb-3">
+              Para procesar los canjes del Programa de Recompensas RavaCoins
+              (RC), podríamos requerir y almacenar de forma temporal los
+              siguientes datos:
+            </p>
+            <ul className="list-disc space-y-1.5 pl-6 mb-3">
+              <li>
+                <strong className="text-white">
+                  Número de teléfono asociado a billeteras digitales
+                </strong>{" "}
+                (por ejemplo, Yape u otras habilitadas).
+              </li>
+              <li>
+                Nombre titular de la billetera (cuando sea requerido para la
+                liquidación).
+              </li>
+              <li>
+                Documento de identidad (DNI o CE) en supuestos de verificación
+                reforzada (KYC ligero) cuando el monto canjeado o el patrón de
+                actividad lo amerite, conforme a la normativa de prevención de
+                fraude.
+              </li>
+              <li>
+                Historial de transacciones de RC: créditos, débitos, canjes
+                solicitados, montos liquidados y fechas.
+              </li>
+            </ul>
+            <p className="mb-4">
+              <strong className="text-white">Finalidad estricta:</strong> Esta
+              información se utiliza{" "}
+              <strong className="text-white">
+                exclusivamente para la liquidación de la recompensa
+              </strong>
+              , la prevención de fraude, la trazabilidad de los pagos y el
+              cumplimiento de obligaciones legales y tributarias aplicables. No
+              se utiliza con fines publicitarios ni se cede a terceros ajenos al
+              proceso de liquidación. RavaGx no almacena claves, PINs ni
+              credenciales de acceso a billeteras digitales.
+            </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
               1.8 Datos de uso (recopilación automática)
@@ -446,7 +557,17 @@ export default function PrivacyPolicy() {
                   <tr>
                     <td className="py-2 pr-4">Ubicación (GPS)</td>
                     <td className="py-2 pr-4">
-                      Mostrar servicios cercanos y verificar reportes viales
+                      Mostrar servicios cercanos, verificar reportes viales y
+                      Radar de Fotopapeletas
+                    </td>
+                    <td className="py-2">No</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-4">
+                      Ubicación en primer plano (Foreground Service)
+                    </td>
+                    <td className="py-2 pr-4">
+                      Radar de Fotopapeletas activo con pantalla apagada
                     </td>
                     <td className="py-2">No</td>
                   </tr>

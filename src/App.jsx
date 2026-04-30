@@ -13,6 +13,11 @@ import {
   ChevronRight,
   Car,
   Gauge,
+  Radar,
+  LayoutDashboard,
+  MapPinned,
+  Coins,
+  Sparkles,
 } from "lucide-react";
 import mockup from "./assets/mockup.png";
 
@@ -36,8 +41,8 @@ function Hero() {
             <span className="text-ravagx-orange">ahora en tu bolsillo</span>
           </h1>
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-ravagx-gray sm:text-xl mx-auto lg:mx-0">
-            Consulta tu SOAT, inspección técnica, multas y más desde un solo
-            lugar. RavaGx es tu copiloto digital en las calles del Perú.
+            Tu copiloto inteligente en Perú. Radar de fotopapeletas, alertas por
+            voz, control de SOAT, multas e inspección desde un solo lugar.
           </p>
 
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row lg:items-start">
@@ -77,6 +82,7 @@ function Hero() {
    SERVICES GRID  (mirrors the app's icon menu)
    ────────────────────────────────────────────── */
 const services = [
+  { icon: Radar, label: "Radar" },
   { icon: Shield, label: "SOAT" },
   { icon: FileText, label: "Inspección" },
   { icon: AlertTriangle, label: "Multas" },
@@ -95,11 +101,11 @@ function ServicesBar() {
           Todo lo que necesitas, en{" "}
           <span className="text-ravagx-orange">un solo lugar</span>
         </h2>
-        <div className="grid grid-cols-4 gap-4 sm:grid-cols-4 md:grid-cols-8">
+        <div className="flex flex-wrap justify-center gap-4">
           {services.map(({ icon: Icon, label }) => (
             <div
               key={label}
-              className="group flex flex-col items-center gap-2 rounded-2xl bg-ravagx-card p-4 transition hover:bg-ravagx-card/80 hover:shadow-[0_0_12px_rgba(255,77,41,0.2)]"
+              className="group flex w-[calc(25%-12px)] min-w-[80px] md:w-[calc(12.5%-14px)] flex-col items-center gap-2 rounded-2xl bg-ravagx-card p-4 transition hover:bg-ravagx-card/80 hover:shadow-[0_0_12px_rgba(255,77,41,0.2)]"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-ravagx-bg text-ravagx-orange transition group-hover:scale-110">
                 <Icon className="h-6 w-6" />
@@ -119,6 +125,12 @@ function ServicesBar() {
    FEATURES (3 cards)
    ────────────────────────────────────────────── */
 const features = [
+  {
+    icon: Radar,
+    title: "Radar Táctico (PRO) \u{1F6A8}",
+    description:
+      "Conduce sin miedo. Alertas por voz en tiempo real metros antes de llegar a cámaras de fotopapeletas ocultas y zonas de peligro. Velocímetro GPS incluido.",
+  },
   {
     icon: TrafficCone,
     title: "Semáforo Legal",
@@ -152,7 +164,7 @@ function Features() {
           Perú.
         </p>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {features.map(({ icon: Icon, title, description }) => (
             <div
               key={title}
@@ -166,6 +178,81 @@ function Features() {
             </div>
           ))}
         </div>
+      </div>
+    </section>
+  );
+}
+
+/* ──────────────────────────────────────────────
+   NEW FEATURES v2.0 (Killer Features)
+   ────────────────────────────────────────────── */
+const newFeatures = [
+  {
+    icon: LayoutDashboard,
+    badge: "Nuevo",
+    title: "Mi Cabina Inteligente",
+    description:
+      "Tu copiloto financiero y operativo. Controla el score de tu vehículo, recibe alertas tempranas de tus documentos (SOAT, revisiones) y descubre en tiempo real el Tótem de precios para ahorrar en cada galón de combustible.",
+  },
+  {
+    icon: MapPinned,
+    badge: "Freemium",
+    title: "Editor de Radares Comunitario",
+    description:
+      "Tú conoces las calles mejor que nadie. Usa nuestro nuevo Editor Freemium para mapear y publicar radares fijos en tu ciudad. Construyamos juntos la red de seguridad vial más grande del país.",
+  },
+  {
+    icon: Coins,
+    badge: "Economía",
+    title: "Economía RavaGx (Ravacoins)",
+    description:
+      "Gana por aportar. Interactúa, reporta y acumula Ravacoins (RC). Usa tus RC para apoyar a los mejores creadores de la comunidad o acumula los suficientes para canjear recompensas reales directas a tu Yape.",
+  },
+];
+
+function NewFeatures() {
+  return (
+    <section id="v2" className="relative overflow-hidden bg-ravagx-bg">
+      <div className="pointer-events-none absolute -top-20 right-0 h-[400px] w-[400px] rounded-full bg-ravagx-orange/10 blur-[100px]" />
+      <div className="relative mx-auto max-w-7xl px-6 py-24">
+        <div className="mb-12 flex flex-col items-center text-center">
+          <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-ravagx-orange/40 bg-ravagx-orange/10 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-ravagx-orange">
+            <Sparkles className="h-3.5 w-3.5" />
+            Versión 2.0 — Ya disponible
+          </span>
+          <h2 className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
+            Las nuevas{" "}
+            <span className="text-ravagx-orange">Killer Features</span>
+          </h2>
+          <p className="mt-5 max-w-2xl text-ravagx-gray sm:text-lg">
+            Tres pilares que transforman tu manera de conducir, reportar y ganar
+            dentro del ecosistema RavaGx.
+          </p>
+        </div>
+
+        <div className="grid gap-6 lg:grid-cols-3">
+          {newFeatures.map(({ icon: Icon, badge, title, description }) => (
+            <div
+              key={title}
+              className="group relative overflow-hidden rounded-3xl border border-ravagx-border bg-gradient-to-br from-ravagx-card to-ravagx-bg p-8 transition hover:border-ravagx-orange/50 hover:shadow-[0_0_30px_rgba(255,77,41,0.15)]"
+            >
+              <div className="absolute right-5 top-5 rounded-full bg-ravagx-orange/15 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-ravagx-orange">
+                {badge}
+              </div>
+              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-ravagx-orange/10 text-ravagx-orange transition group-hover:bg-ravagx-orange group-hover:text-white">
+                <Icon className="h-8 w-8" />
+              </div>
+              <h3 className="mb-3 text-2xl font-bold text-white">{title}</h3>
+              <p className="leading-relaxed text-ravagx-gray">{description}</p>
+            </div>
+          ))}
+        </div>
+
+        <p className="mt-10 text-center text-xs text-ravagx-gray/70">
+          *RavaCoins (RC) son puntos de lealtad promocionales del ecosistema
+          RavaGx. No constituyen dinero electrónico ni instrumentos financieros.
+          Aplican Términos y Condiciones.
+        </p>
       </div>
     </section>
   );
@@ -287,6 +374,7 @@ export default function App() {
     <>
       <Hero />
       <ServicesBar />
+      <NewFeatures />
       <Features />
       <GaragePreview />
       <CTA />

@@ -1,5 +1,5 @@
 Términos y Condiciones de Uso — RavaGx
-Última actualización: 08 de febrero de 2026
+Última actualización: 10 de marzo de 2026
 Estos Términos y Condiciones (“Términos”) regulan el acceso y uso de la aplicación móvil RavaGx (“la Aplicación”, “el Servicio”), desarrollada y operada por RavaGx Team (“nosotros”, “nuestro”).
 Al descargar, instalar, registrarse o utilizar RavaGx, usted (“el Usuario”) declara que ha leído, comprendido y aceptado estos Términos en su totalidad. Si no está de acuerdo con alguno de ellos, le pedimos que no utilice la Aplicación.
 
@@ -13,7 +13,8 @@ Comunidad: Red de alertas viales en tiempo real generadas por los usuarios.
 Localizador de Servicios: Búsqueda de talleres mecánicos, estaciones de servicio, servicios de grúa y otros proveedores cercanos.
 Seguros: Registro informativo de pólizas de seguros vehiculares.
 Notificaciones: Alertas de vencimiento de documentos, recordatorios de mantenimiento y avisos de seguridad vial.
-Gamificación (RavaPoints): Sistema de puntos de reputación por el uso activo y responsable de la Aplicación.
+Gamificación (RavaPoints): Sistema de puntos de reputación por el uso activo y responsable de la Aplicación.
+Radar de Fotopapeletas y Alertas: Sistema de alertas referenciales de ubicación de cámaras de velocidad y reportes comunitarios.
 
 2. Requisitos para el Uso
 Para utilizar RavaGx, usted debe:
@@ -56,7 +57,8 @@ En caso de emergencia real, contacte siempre a los servicios oficiales.
 
 4.5 Seguros
 La sección de seguros permite registrar información referencial de pólizas. RavaGx no es intermediario, corredor ni agente de seguros y no gestiona, vende ni tramita pólizas.
-
+4.6 Exención de Responsabilidad sobre Multas e Infracciones
+El “Radar de Fotopapeletas” de RavaGx es estrictamente una herramienta de asistencia referencial. Las ubicaciones de cámaras de velocidad y los reportes comunitarios mostrados en la Aplicación son aproximados y pueden contener inexactitudes, omisiones o información desactualizada. El Usuario es el único y exclusivo responsable de respetar en todo momento los límites de velocidad, las señales de tránsito y las leyes de tránsito vigentes en la República del Perú. RavaGx Team, sus fundadores, desarrolladores, colaboradores y cualquier persona vinculada al proyecto NO asumen responsabilidad alguna — financiera, civil, penal ni administrativa — por fotopapeletas, multas, sanciones, accidentes de tránsito, daños materiales, lesiones personales o cualquier otro perjuicio que el Usuario pudiera sufrir o causar mientras utiliza o se basa en la información proporcionada por la Aplicación. El uso del Radar de Fotopapeletas no exime al conductor del cumplimiento íntegro de la normativa vial peruana.
 5. Obligaciones y Responsabilidades del Usuario
 El Usuario se compromete a:
 Proporcionar información veraz y actualizada.
@@ -78,6 +80,9 @@ Manipulación del sistema de puntos.
 Acoso u hostigamiento.
 Uso de la Aplicación para actividades ilegales.
 Las decisiones de moderación pueden aplicarse sin previo aviso cuando la gravedad lo justifique.
+
+Contenido Generado por el Usuario (Reportes Comunitarios)
+El sistema de reportes comunitarios del Radar de Fotopapeletas permite a los usuarios señalar eventos viales en tiempo real. El uso indebido de esta funcionalidad — incluyendo, sin limitarse a, la publicación de reportes falsos, spam repetitivo o información deliberadamente engañosa — constituye una infracción grave a estos Términos y resultará en la suspensión temporal o eliminación permanente (baneo) de la cuenta del infractor, sin derecho a reembolso ni compensación. RavaGx se reserva el derecho de implementar sistemas automatizados y manuales de detección de abuso para preservar la integridad y confiabilidad de los reportes comunitarios.
 
 7. Propiedad Intelectual
 7.1 Derechos de RavaGx

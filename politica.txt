@@ -1,5 +1,5 @@
 Política de Privacidad de RavaGx
-Última actualización: 08 de febrero de 2026
+Última actualización: 10 de marzo de 2026
 RavaGx (“nosotros”, “nuestro”, “la aplicación”) opera la aplicación móvil RavaGx, disponible en Google Play Store (el “Servicio”). Esta Política de Privacidad describe cómo recopilamos, usamos, almacenamos, protegemos y compartimos su información personal cuando utiliza nuestro Servicio.
 Al descargar, instalar o utilizar RavaGx, usted acepta las prácticas descritas en esta Política de Privacidad. Si no está de acuerdo, le pedimos que no utilice el Servicio.
 
@@ -19,14 +19,21 @@ Historial de kilometraje y registros de mantenimiento.
 Fotografías de documentos vehiculares (SOAT, tarjeta de propiedad, licencia, seguros) que usted sube voluntariamente.
 Estas imágenes se almacenan de forma segura en servidores cifrados y solo usted tiene acceso a ellas.
 
-1.4 Ubicación (GPS)
-Tipo: Ubicación precisa del dispositivo (GPS).
-Momento de recopilación: Únicamente mientras la aplicación está abierta y en uso (primer plano). No recopilamos ubicación en segundo plano.
+1.4 Datos de Ubicación (Location Data)
+Para el correcto funcionamiento del Radar de Fotopapeletas, la Aplicación recopila datos de ubicación precisa en tiempo real mediante un servicio en primer plano (Foreground Service) del sistema operativo Android. Este servicio permite que el Radar permanezca activo incluso con la pantalla del dispositivo apagada, mostrando una notificación persistente que informa al usuario que la ubicación está siendo utilizada.
+Tipo: Ubicación precisa del dispositivo (GPS).
+Momento de recopilación: Mientras la aplicación está en uso (primer plano) y cuando el Radar de Fotopapeletas está activo mediante Foreground Service.
+Cálculo efímero: La distancia entre su posición y las cámaras de velocidad se calcula de forma efímera exclusivamente para disparar las alertas en tiempo real. No almacenamos ni registramos historiales de rutas, trayectos ni recorridos del usuario.
+No vendemos datos de ubicación: No vendemos, comercializamos ni compartimos historiales de rutas o datos de ubicación con terceros con fines publicitarios, de perfilamiento ni de ninguna otra índole comercial.
 Propósito:
-Mostrar talleres mecánicos, estaciones de servicio y servicios de emergencia cercanos.
-Verificar la ubicación de reportes viales en la comunidad.
-Enviar alertas de seguridad vial relevantes para su zona.
-Permiso: La aplicación solicita su autorización explícita antes de acceder a su ubicación. Puede revocar este permiso en cualquier momento desde la configuración de su dispositivo.
+Mostrar talleres mecánicos, estaciones de servicio y servicios de emergencia cercanos.
+Verificar la ubicación de reportes viales en la comunidad.
+Enviar alertas de seguridad vial relevantes para su zona.
+Radar de Fotopapeletas: Calcular la proximidad a cámaras de velocidad registradas y emitir alertas sonoras y visuales preventivas.
+
+1.4.1 Reportes Comunitarios del Radar
+Cuando un usuario envía un reporte comunitario (por ejemplo, señalar una cámara de velocidad o un evento vial), la Aplicación procesa la ubicación del reporte de forma anónima para compartirla con otros conductores en la zona. No se asocia públicamente ninguna información personal del reportante (nombre, correo, placa) al reporte compartido con la comunidad.
+Permiso: La aplicación solicita su autorización explícita antes de acceder a su ubicación. El permiso de ubicación en primer plano (Foreground Service) se solicita por separado y es necesario para que el Radar funcione con la pantalla apagada. Puede revocar estos permisos en cualquier momento desde la configuración de su dispositivo.
 
 1.5 Cámara y galería de fotos
 Cámara: Se solicita acceso para fotografiar documentos vehiculares dentro de la Guantera Digital.
@@ -120,7 +127,8 @@ RavaGx no está dirigida a menores de 16 años. No recopilamos intencionalmente
 8. Permisos de la aplicación
 RavaGx solicita los siguientes permisos, cada uno con un propósito específico:
 • Internet Propósito: Comunicación con servidores para sincronizar datos Obligatorio: Sí
-• Ubicación (GPS) Propósito: Mostrar servicios cercanos y verificar reportes viales Obligatorio: No (opcional)
+• Ubicación (GPS) Propósito: Mostrar servicios cercanos, verificar reportes viales y Radar de Fotopapeletas Obligatorio: No (opcional)
+• Ubicación en primer plano (Foreground Service) Propósito: Radar de Fotopapeletas activo con pantalla apagada Obligatorio: No (opcional)
 • Cámara Propósito: Fotografiar documentos vehiculares Obligatorio: No (opcional)
 • Almacenamiento / Galería Propósito: Seleccionar fotos de documentos existentes Obligatorio: No (opcional)
 • Notificaciones Propósito: Alertas de vencimiento y seguridad vial Obligatorio: No (opcional)
