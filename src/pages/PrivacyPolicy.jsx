@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
           Política de Privacidad
         </h1>
         <p className="mb-4 text-sm text-ravagx-gray">
-          Última actualización: 30 de abril de 2026 (v2.0)
+          Última actualización: 30 de abril de 2026 (v4.0.0)
         </p>
         <p className="mb-12 text-gray-300 leading-relaxed">
           RavaGx (&quot;nosotros&quot;, &quot;nuestro&quot;, &quot;la
@@ -589,6 +589,19 @@ export default function PrivacyPolicy() {
                     <td className="py-2 pr-4">Notificaciones</td>
                     <td className="py-2 pr-4">
                       Alertas de vencimiento y seguridad vial
+                    </td>
+                    <td className="py-2">No</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-4">
+                      Superponer pantalla (Draw over other apps / Mostrar sobre
+                      otras apps)
+                    </td>
+                    <td className="py-2 pr-4">
+                      Permitir el uso del botón flotante de reporte rápido y
+                      visualizar alertas del radar de fotopapeletas mientras el
+                      usuario utiliza otras aplicaciones de navegación en primer
+                      plano.
                     </td>
                     <td className="py-2">No</td>
                   </tr>

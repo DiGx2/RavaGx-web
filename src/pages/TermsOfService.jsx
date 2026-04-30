@@ -12,7 +12,7 @@ export default function TermsOfService() {
           Términos y Condiciones de Uso
         </h1>
         <p className="mb-4 text-sm text-ravagx-gray">
-          Última actualización: 30 de abril de 2026 (v2.0)
+          Última actualización: 30 de abril de 2026 (v4.0.0)
         </p>
         <p className="mb-12 text-gray-300 leading-relaxed">
           Estos Términos y Condiciones (&quot;Términos&quot;) regulan el acceso

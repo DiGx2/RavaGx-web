@@ -18,6 +18,7 @@ import {
   MapPinned,
   Coins,
   Sparkles,
+  Siren,
 } from "lucide-react";
 import mockup from "./assets/mockup.png";
 
@@ -208,6 +209,13 @@ const newFeatures = [
     description:
       "Gana por aportar. Interactúa, reporta y acumula Ravacoins (RC). Usa tus RC para apoyar a los mejores creadores de la comunidad o acumula los suficientes para canjear recompensas reales directas a tu Yape.",
   },
+  {
+    icon: Siren,
+    badge: "Manos libres",
+    title: "Reporte Rápido Flotante",
+    description:
+      "No apartes la vista de la ruta. Nuestro botón flotante se superpone a tus apps de navegación favoritas (como Waze o Google Maps) para que puedas reportar radares móviles e incidentes con un solo toque.",
+  },
 ];
 
 function NewFeatures() {
@@ -218,7 +226,7 @@ function NewFeatures() {
         <div className="mb-12 flex flex-col items-center text-center">
           <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-ravagx-orange/40 bg-ravagx-orange/10 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-ravagx-orange">
             <Sparkles className="h-3.5 w-3.5" />
-            Versión 2.0 — Ya disponible
+            Versión 4.0.0 — Ya disponible
           </span>
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
             Las nuevas{" "}
@@ -230,7 +238,7 @@ function NewFeatures() {
           </p>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {newFeatures.map(({ icon: Icon, badge, title, description }) => (
             <div
               key={title}
