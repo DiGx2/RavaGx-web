@@ -15,10 +15,10 @@ import {
   Gauge,
   Radar,
   LayoutDashboard,
-  MapPinned,
   Coins,
   Sparkles,
   Siren,
+  Banknote,
 } from "lucide-react";
 import mockup from "./assets/mockup.png";
 
@@ -189,18 +189,18 @@ function Features() {
    ────────────────────────────────────────────── */
 const newFeatures = [
   {
+    icon: Banknote,
+    badge: "Report-to-Earn",
+    title: "Monetiza tu Ruta (PR)",
+    description:
+      "No manejes gratis. Reporta fotopapeletas, incidentes y operativos en tiempo real. Si tu reporte ayuda a otros, ganas Puntos de Reporte (PR) que puedes canjear por dinero real directo a tu Yape. ¡La primera app que te paga por conducir!",
+  },
+  {
     icon: LayoutDashboard,
     badge: "Nuevo",
     title: "Mi Cabina Inteligente",
     description:
       "Tu copiloto financiero y operativo. Controla el score de tu vehículo, recibe alertas tempranas de tus documentos (SOAT, revisiones) y descubre en tiempo real el Tótem de precios para ahorrar en cada galón de combustible.",
-  },
-  {
-    icon: MapPinned,
-    badge: "Freemium",
-    title: "Editor de Radares Comunitario",
-    description:
-      "Tú conoces las calles mejor que nadie. Usa nuestro nuevo Editor Freemium para mapear y publicar radares fijos en tu ciudad. Construyamos juntos la red de seguridad vial más grande del país.",
   },
   {
     icon: Coins,
@@ -233,8 +233,8 @@ function NewFeatures() {
             <span className="text-ravagx-orange">Killer Features</span>
           </h2>
           <p className="mt-5 max-w-2xl text-ravagx-gray sm:text-lg">
-            Tres pilares que transforman tu manera de conducir, reportar y ganar
-            dentro del ecosistema RavaGx.
+            Cuatro pilares que transforman tu manera de conducir, reportar y
+            ganar dentro del ecosistema RavaGx.
           </p>
         </div>
 
@@ -257,9 +257,12 @@ function NewFeatures() {
         </div>
 
         <p className="mt-10 text-center text-xs text-ravagx-gray/70">
-          *RavaCoins (RC) son puntos de lealtad promocionales del ecosistema
-          RavaGx. No constituyen dinero electrónico ni instrumentos financieros.
-          Aplican Términos y Condiciones.
+          *Los Puntos de Reporte (PR) y RavaCoins (RC) son puntos de lealtad
+          promocionales internos del ecosistema RavaGx. No constituyen dinero
+          electrónico, criptomonedas ni instrumentos financieros. La tasa de
+          conversión a Soles, los mínimos de retiro y las condiciones de canje
+          pueden modificarse en cualquier momento sin previo aviso. Aplican
+          Términos, Condiciones y Política Antifraude.
         </p>
       </div>
     </section>

@@ -12,7 +12,7 @@ export default function TermsOfService() {
           Términos y Condiciones de Uso
         </h1>
         <p className="mb-4 text-sm text-ravagx-gray">
-          Última actualización: 30 de abril de 2026 (v4.0.0)
+          Última actualización: 2 de mayo de 2026 (v4.1.0)
         </p>
         <p className="mb-12 text-gray-300 leading-relaxed">
           Estos Términos y Condiciones (&quot;Términos&quot;) regulan el acceso
@@ -297,6 +297,137 @@ export default function TermsOfService() {
               de una eventual terminación del programa, o de la eliminación de
               la cuenta por causa imputable al Usuario, caducarán sin derecho a
               compensación.
+            </p>
+          </section>
+
+          {/* 3.6 — Report-to-Earn (PR) */}
+          <section>
+            <h2 className="mb-3 text-xl font-bold text-white">
+              3.6 Programa Report-to-Earn — Puntos de Reporte (PR)
+            </h2>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.6.1 Naturaleza jurídica de los PR
+            </h3>
+            <p className="mb-4">
+              Los Puntos de Reporte (&quot;PR&quot;) son{" "}
+              <strong className="text-white">
+                puntos de lealtad promocionales internos
+              </strong>{" "}
+              otorgados de forma discrecional por RavaGx en reconocimiento a la
+              participación del Usuario en el programa Report-to-Earn. Los PR{" "}
+              <strong className="text-white">NO constituyen</strong> dinero
+              electrónico (Ley N° 29985), moneda de curso legal, criptomonedas,
+              criptoactivos, valores mobiliarios, depósitos bancarios ni
+              instrumentos financieros de naturaleza alguna. Los PR carecen de
+              valor monetario fuera del ecosistema RavaGx, no son transferibles
+              entre cuentas, no son heredables, no devengan intereses y no son
+              reembolsables en efectivo salvo dentro de los mecanismos de canje
+              vigentes publicados por RavaGx. El saldo en PR del Usuario{" "}
+              <strong className="text-white">
+                no constituye un crédito firme exigible
+              </strong>{" "}
+              contra RavaGx Team.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.6.2 Tasa de cambio variable y mínimos de retiro
+            </h3>
+            <p className="mb-4">
+              RavaGx se reserva el derecho{" "}
+              <strong className="text-white">
+                absoluto, unilateral y discrecional
+              </strong>{" "}
+              de fijar, modificar, ajustar, suspender o eliminar — en cualquier
+              momento y{" "}
+              <strong className="text-white">sin previo aviso</strong> ni
+              necesidad de justificación: (i) la tasa de conversión de PR a
+              Soles (PEN) o a cualquier otro medio de canje; (ii) los montos
+              mínimos y máximos de retiro o canje; (iii) las comisiones
+              aplicables; (iv) las frecuencias permitidas de retiro; (v) las
+              plataformas de pago habilitadas (Yape, Plin u otras); (vi) las
+              categorías de reporte que generan PR y los multiplicadores
+              aplicables; (vii) la caducidad o expiración de los puntos por
+              inactividad. Cualquier modificación se aplicará tanto a los PR
+              futuros como a los acumulados pendientes de canje.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.6.3 Cláusula Antifraude, Anti-Farmeo y Baneo
+            </h3>
+            <p className="mb-3">
+              Constituyen infracciones graves que facultan a RavaGx a, sin
+              previo aviso ni indemnización, anular total o parcialmente los
+              PR/RC acumulados, retener pagos en proceso, suspender temporal o
+              permanentemente la cuenta (baneo), bloquear dispositivos, IPs y
+              medios de pago asociados, e iniciar las acciones legales que
+              correspondan:
+            </p>
+            <ul className="list-disc space-y-1.5 pl-6 mb-4">
+              <li>
+                Uso de emuladores, dispositivos virtualizados, dispositivos
+                rooteados o con jailbreak con fines de manipulación.
+              </li>
+              <li>
+                Uso de aplicaciones o técnicas de falsificación de ubicación
+                (Fake GPS, mock locations, spoofing de sensores).
+              </li>
+              <li>
+                Uso de bots, scripts, automatización, macros, granjas de
+                dispositivos o cualquier mecanismo no humano para generar
+                reportes o interacciones.
+              </li>
+              <li>
+                Coordinación entre dos o más cuentas para inflar artificialmente
+                reportes, votos, &quot;likes&quot;, validaciones o cualquier
+                métrica del programa (&quot;farmeo de interacciones&quot; o
+                &quot;granjas de likes&quot;).
+              </li>
+              <li>
+                Publicación de reportes falsos, duplicados, desactualizados,
+                inducidos o sin sustento real verificable.
+              </li>
+              <li>
+                Creación de cuentas múltiples (multi-accounting) por una misma
+                persona natural.
+              </li>
+              <li>
+                Uso de VPN, proxies o redirecciones de red para simular
+                ubicaciones distintas a la real.
+              </li>
+              <li>
+                Cualquier otra conducta que, a criterio razonable de RavaGx,
+                vulnere la integridad económica del programa o perjudique a
+                otros usuarios de buena fe.
+              </li>
+            </ul>
+            <p className="mb-4">
+              La determinación de la infracción se realizará con base en
+              evidencia algorítmica, telemetría del dispositivo, datos de
+              ubicación, patrones estadísticos y/o revisión humana, siendo la
+              decisión de RavaGx{" "}
+              <strong className="text-white">final e inapelable</strong>, salvo
+              error material manifiesto. Los fondos retenidos por aplicación de
+              esta cláusula no generan derecho a compensación, intereses ni
+              resarcimiento.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.6.4 Liquidez, sostenibilidad y fuerza mayor económica
+            </h3>
+            <p className="mb-4">
+              El programa Report-to-Earn opera bajo un modelo de economía
+              cerrada. RavaGx podrá pausar temporalmente los retiros, ampliar
+              los plazos de pago hasta por noventa (90) días calendario o
+              reestructurar el programa frente a eventos de iliquidez
+              transitoria, ataques masivos de fraude, cambios regulatorios,
+              decisiones de proveedores de pago (Yape, Plin, bancos) o supuestos
+              de fuerza mayor, sin que ello genere responsabilidad para RavaGx.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.6.5 Tributación
+            </h3>
+            <p>
+              El Usuario es el único responsable por las obligaciones
+              tributarias derivadas de los canjes recibidos, debiendo declarar
+              dichos importes ante la SUNAT cuando corresponda conforme a la
+              legislación peruana vigente.
             </p>
           </section>
 

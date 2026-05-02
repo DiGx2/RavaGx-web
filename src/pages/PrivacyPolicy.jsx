@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
           Política de Privacidad
         </h1>
         <p className="mb-4 text-sm text-ravagx-gray">
-          Última actualización: 30 de abril de 2026 (v4.0.0)
+          Última actualización: 2 de mayo de 2026 (v4.1.0)
         </p>
         <p className="mb-12 text-gray-300 leading-relaxed">
           RavaGx (&quot;nosotros&quot;, &quot;nuestro&quot;, &quot;la
@@ -284,6 +284,70 @@ export default function PrivacyPolicy() {
               se utiliza con fines publicitarios ni se cede a terceros ajenos al
               proceso de liquidación. RavaGx no almacena claves, PINs ni
               credenciales de acceso a billeteras digitales.
+            </p>
+
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              1.7.2 Datos de GPS y Validación Antifraude (Programa
+              Report-to-Earn)
+            </h3>
+            <p className="mb-3">
+              Como parte del programa de recompensas{" "}
+              <strong className="text-white">Report-to-Earn</strong> (Puntos de
+              Reporte – PR), RavaGx recopila, procesa y analiza datos de{" "}
+              <strong className="text-white">
+                ubicación precisa (GPS) y velocidad
+              </strong>{" "}
+              del dispositivo, incluso cuando la aplicación se ejecuta en
+              segundo plano (background) mientras el usuario tiene activo el
+              Radar, el Botón Flotante o cualquier modo de reporte. Esta
+              recopilación se realiza con la finalidad estricta, lícita y
+              proporcional de:
+            </p>
+            <ul className="list-disc space-y-1.5 pl-6 mb-3">
+              <li>
+                Validar la{" "}
+                <strong className="text-white">
+                  autenticidad y geolocalización real
+                </strong>{" "}
+                de cada reporte (fotopapeletas, incidentes, operativos, radares
+                móviles), así como su consistencia espacio-temporal.
+              </li>
+              <li>
+                Detectar y prevenir fraude, suplantación de ubicación, uso de{" "}
+                <strong className="text-white">Fake GPS</strong>, emuladores,
+                dispositivos rooteados, automatización (bots/scripts), VPN
+                sospechosas y patrones de comportamiento anómalos incompatibles
+                con un desplazamiento humano real.
+              </li>
+              <li>
+                Calcular de manera justa la atribución de Puntos de Reporte (PR)
+                entre usuarios y evitar el{" "}
+                <strong className="text-white">&quot;farmeo&quot;</strong> o las
+                granjas de interacción coludidas.
+              </li>
+              <li>
+                Proteger la integridad económica del ecosistema y de los demás
+                usuarios de buena fe.
+              </li>
+            </ul>
+            <p className="mb-4">
+              RavaGx{" "}
+              <strong className="text-white">
+                no comercializa, vende ni cede a terceros con fines
+                publicitarios
+              </strong>{" "}
+              los historiales de ubicación recopilados con esta finalidad. Los
+              datos de validación antifraude se conservan únicamente por el
+              tiempo razonablemente necesario para auditar reportes, resolver
+              disputas, atender requerimientos legales y entrenar nuestros
+              modelos internos de detección de abuso. El Usuario, al activar el
+              Radar, el Botón Flotante o cualquier funcionalidad del programa
+              Report-to-Earn, otorga su{" "}
+              <strong className="text-white">
+                consentimiento expreso, informado e inequívoco
+              </strong>{" "}
+              para este tratamiento. La revocación del consentimiento implica la
+              imposibilidad de participar en el programa de recompensas.
             </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">

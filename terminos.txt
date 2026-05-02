@@ -124,7 +124,31 @@ RavaGx puede modificar, suspender o descontinuar funcionalidades en cualquier mo
 
 11. Servicios Gratuitos y Futuros Servicios de Pago
 El uso actual de RavaGx es gratuito. En el futuro, podrán ofrecerse servicios premium opcionales, informando previamente precios y condiciones.
+11.bis Programa “Report-to-Earn” — Puntos de Reporte (PR) y RavaCoins (RC)
 
+11.bis.1 Naturaleza jurídica de los PR y RC
+Los Puntos de Reporte (“PR”) y los RavaCoins (“RC”) son puntos de lealtad promocionales internos del ecosistema RavaGx, otorgados de forma discrecional como reconocimiento a la participación del Usuario. Los PR y RC NO constituyen, bajo ningún supuesto: (i) dinero electrónico en los términos de la Ley N° 29985; (ii) moneda de curso legal; (iii) criptomonedas, criptoactivos, valores mobiliarios ni instrumentos financieros; (iv) depósitos bancarios; (v) derechos de crédito exigibles judicialmente fuera del propio programa. Los PR y RC carecen de valor monetario fuera del ecosistema RavaGx, no son transferibles entre cuentas, no son heredables, no generan intereses y no son reembolsables en efectivo salvo dentro del mecanismo de canje vigente y bajo las condiciones expresamente publicadas por RavaGx.
+
+11.bis.2 Tasa de cambio variable y mínimos de retiro
+RavaGx se reserva el derecho absoluto, unilateral y discrecional de fijar, modificar, ajustar, suspender o eliminar, en cualquier momento y sin previo aviso ni necesidad de justificación: (i) la tasa de conversión de PR y RC a Soles (PEN) o a cualquier otro medio de canje; (ii) los montos mínimos y máximos de retiro o canje; (iii) las comisiones aplicables; (iv) las frecuencias permitidas de retiro; (v) las plataformas de pago habilitadas (incluyendo, sin limitarse a, Yape, Plin u otras); (vi) las categorías de reporte que generan PR y los multiplicadores aplicables; (vii) la caducidad o expiración de los puntos por inactividad. Cualquier modificación entrará en vigor desde su publicación en la Aplicación o el sitio web, y se aplicará tanto a los PR/RC futuros como a los acumulados pendientes de canje. El Usuario reconoce y acepta que su saldo en PR/RC no constituye un crédito firme contra RavaGx y que la economía interna puede ser ajustada para garantizar la sostenibilidad y liquidez del programa.
+
+11.bis.3 Cláusula Antifraude, Anti-Farmeo y Baneo
+RavaGx implementa sistemas automatizados y manuales de detección de abuso. Constituyen infracciones graves que facultan a RavaGx a, sin previo aviso ni indemnización: (a) anular, congelar o reducir total o parcialmente los PR/RC acumulados; (b) retener, revertir o cancelar pagos en proceso; (c) suspender temporal o permanentemente la cuenta del Usuario (baneo); (d) negar futuras inscripciones del Usuario, sus dispositivos, IPs o medios de pago asociados; (e) iniciar las acciones civiles o penales correspondientes:
+(i) Uso de emuladores, dispositivos virtualizados, dispositivos rooteados o jailbreak con fines de manipulación.
+(ii) Uso de aplicaciones o técnicas de falsificación de ubicación (Fake GPS, mock locations, spoofing de sensores).
+(iii) Uso de bots, scripts, automatización, macros, granjas de dispositivos o cualquier mecanismo no humano para generar reportes o interacciones.
+(iv) Coordinación entre dos o más cuentas para inflar artificialmente reportes, votos, “likes”, validaciones o cualquier métrica del programa (en adelante, “farmeo de interacciones” o “granjas de likes”).
+(v) Publicación de reportes falsos, duplicados, desactualizados, inducidos o sin sustento real verificable.
+(vi) Creación de cuentas múltiples (multi-accounting) por una misma persona natural.
+(vii) Uso de VPN, proxies o redirecciones de red para simular ubicaciones distintas a la real.
+(viii) Cualquier otra conducta que, a criterio razonable de RavaGx, vulnere la integridad económica del programa o perjudique a otros usuarios de buena fe.
+La determinación de la infracción se realizará con base en evidencia algorítmica, telemetría del dispositivo, datos de ubicación, patrones estadísticos y/o revisión humana, siendo la decisión de RavaGx final e inapelable, salvo error material manifiesto. Los fondos retenidos por aplicación de esta cláusula no generan derecho alguno de compensación, intereses ni resarcimiento.
+
+11.bis.4 Liquidez, sostenibilidad y fuerza mayor económica
+El Usuario reconoce que el programa Report-to-Earn opera bajo un modelo de economía cerrada y que su sostenibilidad depende de variables externas. RavaGx podrá pausar temporalmente los retiros, ampliar los plazos de pago hasta por noventa (90) días calendario, o reestructurar el programa frente a eventos de iliquidez transitoria, ataques masivos de fraude, cambios regulatorios, decisiones de proveedores de pago (Yape, Plin, bancos) o supuestos de fuerza mayor, sin que ello genere responsabilidad para RavaGx.
+
+11.bis.5 Tributación
+El Usuario es el único responsable por las obligaciones tributarias que pudieran derivarse de los canjes recibidos, debiendo declarar dichos importes ante la SUNAT cuando corresponda conforme a la legislación peruana vigente.
 12. Privacidad
 El tratamiento de datos personales se rige por la Política de Privacidad, que forma parte integral de estos Términos.
 

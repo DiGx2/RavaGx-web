@@ -134,6 +134,14 @@ RavaGx solicita los siguientes permisos, cada uno con un propósito específico:
 • Notificaciones Propósito: Alertas de vencimiento y seguridad vial Obligatorio: No (opcional)
 Ningún permiso se activa sin su autorización explícita previa.
 
+8.bis Manejo de GPS y Validación Antifraude del Programa Report-to-Earn (PR)
+Como parte del programa de recompensas “Report-to-Earn” (Puntos de Reporte – PR), RavaGx recopila, procesa y analiza datos de ubicación precisa (GPS) y velocidad del dispositivo, incluso cuando la aplicación se ejecuta en segundo plano (background) mientras el usuario tiene activo el Radar, el Botón Flotante o cualquier modo de reporte en marcha. Esta recopilación se realiza con la finalidad estricta, lícita y proporcional de:
+(i) Validar la autenticidad, geolocalización real y consistencia espacio-temporal de cada reporte (fotopapeletas, incidentes, operativos, radares móviles, etc.) emitido por el Usuario.
+(ii) Detectar y prevenir fraude, suplantación de ubicación, uso de Fake GPS, emuladores, dispositivos rooteados, automatización (bots/scripts), VPN sospechosas y patrones de comportamiento anómalos incompatibles con un desplazamiento humano real.
+(iii) Calcular de manera justa la atribución de Puntos de Reporte (PR) entre usuarios y evitar el “farmeo” o granjas de interacción coludidas.
+(iv) Proteger la integridad económica del ecosistema y de los demás usuarios de buena fe.
+RavaGx no comercializa, vende ni cede a terceros con fines publicitarios los historiales de ubicación recopilados con esta finalidad. Los datos de validación antifraude se conservan únicamente por el tiempo razonablemente necesario para auditar reportes, resolver disputas, atender requerimientos legales y entrenar nuestros modelos internos de detección de abuso. El Usuario, al activar el Radar, el Botón Flotante o cualquier funcionalidad del programa Report-to-Earn, otorga su consentimiento expreso, informado e inequívoco para este tratamiento. La revocación del consentimiento implica la imposibilidad de participar en el programa de recompensas.
+
 9. Transferencias internacionales de datos
 Nuestros servidores pueden estar ubicados fuera de su país de residencia. Al utilizar RavaGx, usted consiente la transferencia de sus datos a servidores donde operan nuestros proveedores de infraestructura (Supabase, Google, Expo), los cuales cumplen estándares internacionales de protección de datos.
 
