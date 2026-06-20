@@ -241,7 +241,60 @@ export default function TermsOfService() {
               reembolsable de los RC.
             </p>
             <h3 className="mb-2 text-lg font-semibold text-white/90">
-              3.5.4 Cláusula Antifraude
+              3.5.4 Valor Asimétrico (Compra vs. Retiro)
+            </h3>
+            <p className="mb-4">
+              El Usuario reconoce y acepta expresamente que el ecosistema RavaGx
+              opera bajo un modelo de{" "}
+              <strong className="text-white">valor asimétrico</strong>, en los
+              siguientes términos:
+            </p>
+            <ul className="list-disc space-y-1.5 pl-6 mb-4">
+              <li>
+                <strong className="text-white">
+                  Transferencias entre usuarios (1:1):
+                </strong>{" "}
+                Las donaciones de RC entre usuarios{" "}
+                <strong className="text-white">
+                  no están sujetas a comisiones ni deducciones
+                </strong>{" "}
+                de transacción. Se transfiere el 100% de los RC donados.
+              </li>
+              <li>
+                <strong className="text-white">
+                  Valor de compra distinto del valor de retiro:
+                </strong>{" "}
+                El precio pagado por los paquetes de RC mediante compras
+                integradas (IAP) está fijado por las tiendas de aplicaciones
+                (Google Play / App Store) y{" "}
+                <strong className="text-white">
+                  no representa ni equivale al valor de canje
+                </strong>{" "}
+                al momento de solicitar un retiro de ganancias a dinero
+                fiduciario.
+              </li>
+              <li>
+                <strong className="text-white">
+                  Valor de Canje / Tasa de Retiro:
+                </strong>{" "}
+                El &quot;Valor de Canje&quot; o &quot;Tasa de Retiro&quot; es una
+                métrica promocional fija determinada por RavaGx (actualmente{" "}
+                <strong className="text-white">1,000 RC = S/ 1.00</strong>),
+                estrictamente menor al precio de compra, y puede ser modificada
+                en cualquier momento{" "}
+                <strong className="text-white">sin previo aviso</strong>.
+              </li>
+            </ul>
+            <p className="mb-4">
+              Al adquirir RavaCoins, el Usuario{" "}
+              <strong className="text-white">
+                acepta expresamente esta asimetría de valor
+              </strong>{" "}
+              entre el precio de compra y el valor de retiro, y renuncia a
+              cualquier reclamo derivado de dicha diferencia (spread).
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.5.5 Cláusula Antifraude
             </h3>
             <p className="mb-4">
               Queda{" "}
@@ -258,7 +311,7 @@ export default function TermsOfService() {
               genere derecho a compensación alguna a favor del infractor.
             </p>
             <h3 className="mb-2 text-lg font-semibold text-white/90">
-              3.5.5 Procesamiento, Tributación y Modificaciones
+              3.5.6 Procesamiento, Tributación y Modificaciones
             </h3>
             <p>
               Los retiros están sujetos a tiempos de procesamiento, verificación
