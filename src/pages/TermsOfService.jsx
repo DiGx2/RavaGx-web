@@ -97,9 +97,7 @@ export default function TermsOfService() {
                 modifiquen radares fijos dentro de la Aplicación.
               </li>
               <li>
-                <strong className="text-white">
-                  Mapa de Navegación 3D:
-                </strong>{" "}
+                <strong className="text-white">Mapa de Navegación 3D:</strong>{" "}
                 Motor de navegación con mapa 3D, seguimiento GPS de alta
                 precisión, guía calle a calle y modo apaisado inteligente que
                 opera junto con las alertas de seguridad en tiempo real.

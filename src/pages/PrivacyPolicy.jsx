@@ -189,10 +189,10 @@ export default function PrivacyPolicy() {
                 Ubicación en Segundo Plano (Background Location)
               </strong>{" "}
               se solicita por separado y es indispensable para que el motor de
-              alertas por voz y el Radar de Fotopapeletas (función PRO) funcionen
-              con la pantalla apagada o con la aplicación en segundo plano. Puede
-              revocar estos permisos en cualquier momento desde la configuración
-              de su dispositivo.
+              alertas por voz y el Radar de Fotopapeletas (función PRO)
+              funcionen con la pantalla apagada o con la aplicación en segundo
+              plano. Puede revocar estos permisos en cualquier momento desde la
+              configuración de su dispositivo.
             </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
@@ -291,9 +291,9 @@ export default function PrivacyPolicy() {
                 únicamente para procesar los retiros de ganancias
               </strong>
               , prevenir el fraude financiero y cumplir obligaciones legales y
-              tributarias aplicables. No se utiliza con fines publicitarios ni se
-              cede a terceros ajenos al proceso de liquidación. Estos datos se
-              manejan bajo{" "}
+              tributarias aplicables. No se utiliza con fines publicitarios ni
+              se cede a terceros ajenos al proceso de liquidación. Estos datos
+              se manejan bajo{" "}
               <strong className="text-white">
                 estrictos estándares de seguridad
               </strong>{" "}
@@ -584,8 +584,8 @@ export default function PrivacyPolicy() {
                     </td>
                     <td className="py-2 pr-4">
                       Indispensable para el motor de alertas por voz y el Radar
-                      de Fotopapeletas (función PRO) con la pantalla apagada o la
-                      app en segundo plano
+                      de Fotopapeletas (función PRO) con la pantalla apagada o
+                      la app en segundo plano
                     </td>
                     <td className="py-2">No</td>
                   </tr>
