@@ -277,8 +277,8 @@ export default function TermsOfService() {
                 <strong className="text-white">
                   Valor de Canje / Tasa de Retiro:
                 </strong>{" "}
-                El &quot;Valor de Canje&quot; o &quot;Tasa de Retiro&quot; es una
-                métrica promocional fija determinada por RavaGx (actualmente{" "}
+                El &quot;Valor de Canje&quot; o &quot;Tasa de Retiro&quot; es
+                una métrica promocional fija determinada por RavaGx (actualmente{" "}
                 <strong className="text-white">1,000 RC = S/ 1.00</strong>),
                 estrictamente menor al precio de compra, y puede ser modificada
                 en cualquier momento{" "}

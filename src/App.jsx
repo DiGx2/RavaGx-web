@@ -17,7 +17,6 @@ import {
   LayoutDashboard,
   Coins,
   Sparkles,
-  Siren,
   Navigation,
 } from "lucide-react";
 import mockup from "./assets/mockup.png";
@@ -209,13 +208,6 @@ const newFeatures = [
     description:
       "La comunidad te recompensa. Recibe donaciones en RavaCoins (RC) de otros conductores en agradecimiento por tus reportes. Acumula ganancias y retíralas directo a tu Yape. O recarga tu saldo para apoyar a los mejores copilotos de la ruta.",
   },
-  {
-    icon: Siren,
-    badge: "Manos libres",
-    title: "Reporte Rápido Flotante",
-    description:
-      "No apartes la vista de la ruta. Nuestro botón flotante se superpone a tus apps de navegación favoritas (como Waze o Google Maps) para que puedas reportar radares móviles e incidentes con un solo toque.",
-  },
 ];
 
 function NewFeatures() {
@@ -233,12 +225,12 @@ function NewFeatures() {
             <span className="text-ravagx-orange">Killer Features</span>
           </h2>
           <p className="mt-5 max-w-2xl text-ravagx-gray sm:text-lg">
-            Cuatro pilares que transforman tu manera de conducir, reportar y
-            ganar dentro del ecosistema RavaGx.
+            Tres pilares que transforman tu manera de conducir, reportar y ganar
+            dentro del ecosistema RavaGx.
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {newFeatures.map(({ icon: Icon, badge, title, description }) => (
             <div
               key={title}

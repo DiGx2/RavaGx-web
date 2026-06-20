@@ -610,19 +610,6 @@ export default function PrivacyPolicy() {
                     </td>
                     <td className="py-2">No</td>
                   </tr>
-                  <tr>
-                    <td className="py-2 pr-4">
-                      Superponer pantalla (Draw over other apps / Mostrar sobre
-                      otras apps)
-                    </td>
-                    <td className="py-2 pr-4">
-                      Permitir el uso del botón flotante de reporte rápido y
-                      visualizar alertas del radar de fotopapeletas mientras el
-                      usuario utiliza otras aplicaciones de navegación en primer
-                      plano.
-                    </td>
-                    <td className="py-2">No</td>
-                  </tr>
                 </tbody>
               </table>
             </div>
