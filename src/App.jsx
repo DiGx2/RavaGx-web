@@ -207,7 +207,7 @@ const newFeatures = [
     badge: "Economía",
     title: "Economía RavaGx (Ravacoins)",
     description:
-      "Gana por aportar. Interactúa, reporta y acumula Ravacoins (RC), nuestros puntos de lealtad internos. Usa tus RC para apoyar a los mejores creadores de la comunidad y desbloquear beneficios dentro del ecosistema RavaGx.",
+      "La comunidad te recompensa. Recibe donaciones en RavaCoins (RC) de otros conductores en agradecimiento por tus reportes. Acumula ganancias y retíralas directo a tu Yape. O recarga tu saldo para apoyar a los mejores copilotos de la ruta.",
   },
   {
     icon: Siren,
@@ -255,6 +255,13 @@ function NewFeatures() {
             </div>
           ))}
         </div>
+
+        <p className="mt-10 text-center text-xs text-ravagx-gray/70">
+          *Los RavaCoins (RC) son una moneda virtual interna. Los RC adquiridos
+          no son reembolsables. Las ganancias obtenidas por donaciones de
+          terceros están sujetas a un mínimo de retiro de S/ 10.00 vía Yape.
+          Tiempos de procesamiento y políticas antifraude aplican.
+        </p>
       </div>
     </section>
   );

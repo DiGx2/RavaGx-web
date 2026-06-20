@@ -178,6 +178,102 @@ export default function TermsOfService() {
             </p>
           </section>
 
+          {/* 3.5 — Economía RavaGx (Donaciones P2P) */}
+          <section>
+            <h2 className="mb-3 text-xl font-bold text-white">
+              3.5 Economía RavaGx, Donaciones y Retiros
+            </h2>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.5.1 Naturaleza de los RavaCoins (RC)
+            </h3>
+            <p className="mb-4">
+              Los RavaCoins (&quot;RC&quot;) son una{" "}
+              <strong className="text-white">moneda virtual interna</strong> de
+              uso exclusivo dentro del ecosistema RavaGx. Los RC{" "}
+              <strong className="text-white">NO constituyen</strong> dinero
+              electrónico (Ley N° 29985), moneda de curso legal, criptoactivos,
+              valores mobiliarios ni instrumentos financieros de naturaleza
+              alguna. RavaGx no es una empresa de servicios de pago, emisora de
+              dinero electrónico ni intermediario financiero. El modelo de los
+              RC se rige por una{" "}
+              <strong className="text-white">
+                Economía de Donaciones Peer-to-Peer (P2P)
+              </strong>
+              : RavaGx no paga de forma automática por generar reportes; las
+              ganancias provienen exclusivamente de los aportes voluntarios que
+              otros usuarios deciden enviar.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.5.2 Flujo de la Billetera (3 pasos)
+            </h3>
+            <ul className="list-disc space-y-1.5 pl-6 mb-4">
+              <li>
+                <strong className="text-white">Recargar (Buy):</strong> El
+                Usuario compra paquetes de RC con dinero real (Soles) para
+                apoyar a la comunidad. Los RC adquiridos son bienes digitales
+                consumibles de uso interno.
+              </li>
+              <li>
+                <strong className="text-white">Donar (Donate):</strong> El
+                Usuario gasta sus RC enviando aportes voluntarios (propinas) a
+                otros conductores en agradecimiento por sus alertas y reportes
+                en el mapa.
+              </li>
+              <li>
+                <strong className="text-white">Retirar (Cash Out):</strong> Los
+                conductores que reciben donaciones acumulan RC convertibles en
+                ganancias reales. Al alcanzar el monto mínimo de{" "}
+                <strong className="text-white">S/ 10.00</strong>, pueden
+                solicitar el retiro directo a su billetera digital (Yape).
+              </li>
+            </ul>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.5.3 Política de No Reembolso
+            </h3>
+            <p className="mb-4">
+              La compra de paquetes de RC es{" "}
+              <strong className="text-white">final y definitiva</strong>. Los RC
+              adquiridos con dinero real{" "}
+              <strong className="text-white">
+                no son reembolsables ni están sujetos a devoluciones
+              </strong>{" "}
+              bajo ninguna circunstancia, salvo en los supuestos en que la ley
+              aplicable lo exija de manera imperativa. Al confirmar una recarga,
+              el Usuario reconoce y acepta expresamente la naturaleza no
+              reembolsable de los RC.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.5.4 Cláusula Antifraude
+            </h3>
+            <p className="mb-4">
+              Queda{" "}
+              <strong className="text-white">estrictamente prohibido</strong> el
+              uso de cuentas múltiples (multi-accounting) para realizar
+              autodonaciones, el lavado de RC, la colusión entre cuentas y
+              cualquier mecanismo destinado a simular donaciones reales con el
+              fin de generar retiros ilegítimos. RavaGx se reserva el derecho de{" "}
+              <strong className="text-white">
+                auditar, retener, congelar o cancelar
+              </strong>{" "}
+              retiros y saldos de RC sospechosos, así como de suspender las
+              cuentas involucradas, sin necesidad de aviso previo y sin que ello
+              genere derecho a compensación alguna a favor del infractor.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.5.5 Procesamiento, Tributación y Modificaciones
+            </h3>
+            <p>
+              Los retiros están sujetos a tiempos de procesamiento, verificación
+              de identidad (KYC ligero) cuando corresponda y a las políticas
+              antifraude vigentes. El Usuario es el único responsable de
+              proporcionar datos de billetera correctos y de cumplir las
+              obligaciones tributarias derivadas de las ganancias recibidas.
+              RavaGx podrá modificar los mínimos de retiro, comisiones, paquetes
+              de recarga y demás condiciones del programa en cualquier momento,
+              informando a través de los canales oficiales.
+            </p>
+          </section>
+
           {/* 4 */}
           <section>
             <h2 className="mb-3 text-xl font-bold text-white">

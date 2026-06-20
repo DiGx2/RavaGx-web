@@ -259,6 +259,50 @@ export default function PrivacyPolicy() {
             </ul>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
+              1.7.1 Datos Financieros y Retiros (Economía RavaGx)
+            </h3>
+            <p className="mb-3">
+              Dentro del modelo de Economía de Donaciones P2P, los usuarios
+              pueden retirar a dinero real las ganancias acumuladas por las
+              donaciones en RavaCoins (RC) recibidas de otros conductores.
+              Exclusivamente para procesar estos retiros solicitados por el
+              usuario, RavaGx recopila y almacena:
+            </p>
+            <ul className="list-disc space-y-1.5 pl-6 mb-3">
+              <li>
+                <strong className="text-white">
+                  Número de celular asociado a Yape
+                </strong>{" "}
+                (u otra billetera digital habilitada), proporcionado por el
+                usuario como destino del retiro.
+              </li>
+              <li>
+                <strong className="text-white">
+                  Registro de transacciones:
+                </strong>{" "}
+                historial de recargas, donaciones enviadas y recibidas, retiros
+                solicitados, montos liquidados y fechas.
+              </li>
+            </ul>
+            <p className="mb-4">
+              <strong className="text-white">Finalidad estricta:</strong> Esta
+              información se utiliza{" "}
+              <strong className="text-white">
+                únicamente para procesar los retiros de ganancias
+              </strong>
+              , prevenir el fraude financiero y cumplir obligaciones legales y
+              tributarias aplicables. No se utiliza con fines publicitarios ni se
+              cede a terceros ajenos al proceso de liquidación. Estos datos se
+              manejan bajo{" "}
+              <strong className="text-white">
+                estrictos estándares de seguridad
+              </strong>{" "}
+              (cifrado en tránsito y en reposo) para prevenir el fraude
+              financiero. RavaGx no almacena claves, PINs ni credenciales de
+              acceso a billeteras digitales.
+            </p>
+
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
               1.8 Datos de uso (recopilación automática)
             </h3>
             <ul className="list-disc space-y-1.5 pl-6">
