@@ -18,7 +18,7 @@ import {
   Coins,
   Sparkles,
   Siren,
-  Banknote,
+  Navigation,
 } from "lucide-react";
 import mockup from "./assets/mockup.png";
 
@@ -189,11 +189,11 @@ function Features() {
    ────────────────────────────────────────────── */
 const newFeatures = [
   {
-    icon: Banknote,
-    badge: "Report-to-Earn",
-    title: "Monetiza tu Ruta (PR)",
+    icon: Navigation,
+    badge: "Navegación 3D",
+    title: "Mapa de Navegación V1",
     description:
-      "No manejes gratis. Reporta fotopapeletas, incidentes y operativos en tiempo real. Si tu reporte ayuda a otros, ganas Puntos de Reporte (PR) que puedes canjear por dinero real directo a tu Yape. ¡La primera app que te paga por conducir!",
+      "Hemos reescrito nuestro motor desde cero. Disfruta de un mapa 3D fluido, seguimiento GPS de alta precisión y un modo apaisado inteligente. RavaGx ahora es un navegador completo que te guía calle a calle mientras te alerta de peligros en tiempo real.",
   },
   {
     icon: LayoutDashboard,
@@ -207,7 +207,7 @@ const newFeatures = [
     badge: "Economía",
     title: "Economía RavaGx (Ravacoins)",
     description:
-      "Gana por aportar. Interactúa, reporta y acumula Ravacoins (RC). Usa tus RC para apoyar a los mejores creadores de la comunidad o acumula los suficientes para canjear recompensas reales directas a tu Yape.",
+      "Gana por aportar. Interactúa, reporta y acumula Ravacoins (RC), nuestros puntos de lealtad internos. Usa tus RC para apoyar a los mejores creadores de la comunidad y desbloquear beneficios dentro del ecosistema RavaGx.",
   },
   {
     icon: Siren,
@@ -226,7 +226,7 @@ function NewFeatures() {
         <div className="mb-12 flex flex-col items-center text-center">
           <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-ravagx-orange/40 bg-ravagx-orange/10 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-ravagx-orange">
             <Sparkles className="h-3.5 w-3.5" />
-            Versión 4.0.0 — Ya disponible
+            Versión 5.0.0 — Ya disponible
           </span>
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
             Las nuevas{" "}
@@ -255,15 +255,6 @@ function NewFeatures() {
             </div>
           ))}
         </div>
-
-        <p className="mt-10 text-center text-xs text-ravagx-gray/70">
-          *Los Puntos de Reporte (PR) y RavaCoins (RC) son puntos de lealtad
-          promocionales internos del ecosistema RavaGx. No constituyen dinero
-          electrónico, criptomonedas ni instrumentos financieros. La tasa de
-          conversión a Soles, los mínimos de retiro y las condiciones de canje
-          pueden modificarse en cualquier momento sin previo aviso. Aplican
-          Términos, Condiciones y Política Antifraude.
-        </p>
       </div>
     </section>
   );

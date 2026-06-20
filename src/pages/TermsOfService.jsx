@@ -12,7 +12,7 @@ export default function TermsOfService() {
           Términos y Condiciones de Uso
         </h1>
         <p className="mb-4 text-sm text-ravagx-gray">
-          Última actualización: 2 de mayo de 2026 (v4.1.0)
+          Última actualización: 20 de junio de 2026 (v5.0.0)
         </p>
         <p className="mb-12 text-gray-300 leading-relaxed">
           Estos Términos y Condiciones (&quot;Términos&quot;) regulan el acceso
@@ -98,11 +98,11 @@ export default function TermsOfService() {
               </li>
               <li>
                 <strong className="text-white">
-                  Programa de Recompensas RavaCoins (RC):
+                  Mapa de Navegación 3D:
                 </strong>{" "}
-                Economía virtual interna basada en puntos de lealtad
-                promocionales canjeables por recompensas dentro y fuera de la
-                plataforma conforme a las reglas establecidas en estos Términos.
+                Motor de navegación con mapa 3D, seguimiento GPS de alta
+                precisión, guía calle a calle y modo apaisado inteligente que
+                opera junto con las alertas de seguridad en tiempo real.
               </li>
               <li>
                 <strong className="text-white">
@@ -175,259 +175,6 @@ export default function TermsOfService() {
               La eliminación es permanente e irreversible y conlleva la
               supresión de todos sus datos personales, vehículos, documentos y
               contenido generado.
-            </p>
-          </section>
-
-          {/* 3.5 — RavaCoins (Virtual Economy) */}
-          <section>
-            <h2 className="mb-3 text-xl font-bold text-white">
-              3.5 Programa de Recompensas RavaCoins (RC)
-            </h2>
-            <h3 className="mb-2 text-lg font-semibold text-white/90">
-              3.5.1 Naturaleza Jurídica de los RavaCoins
-            </h3>
-            <p className="mb-4">
-              Los RavaCoins (en adelante, "RC") son{" "}
-              <strong className="text-white">
-                licencias de software virtuales y puntos de lealtad
-                promocionales
-              </strong>{" "}
-              exclusivos del ecosistema RavaGx. Los RC{" "}
-              <strong className="text-white">NO constituyen</strong> dinero
-              electrónico, moneda de curso legal, criptoactivos, valores
-              negociables ni instrumentos financieros de ninguna naturaleza.
-              RavaGx{" "}
-              <strong className="text-white">
-                no es una empresa de servicios de pago, emisora de dinero
-                electrónico, banco, agente de remesas ni intermediario
-                financiero
-              </strong>{" "}
-              y no se encuentra sujeta a la supervisión de la Superintendencia
-              de Banca, Seguros y AFP (SBS) ni de la Superintendencia del
-              Mercado de Valores (SMV) del Perú. Los RC{" "}
-              <strong className="text-white">
-                no tienen valor en moneda fiduciaria fuera de la plataforma
-              </strong>
-              , no devengan intereses, no son transferibles entre usuarios salvo
-              dentro de los mecanismos habilitados por la propia Aplicación, no
-              son reembolsables en efectivo y no representan propiedad,
-              participación, deuda ni derecho de crédito alguno frente a RavaGx
-              Team.
-            </p>
-            <h3 className="mb-2 text-lg font-semibold text-white/90">
-              3.5.2 Obtención y Uso
-            </h3>
-            <p className="mb-4">
-              El Usuario puede obtener RC mediante la interacción legítima con
-              la Aplicación, la generación de contenido (UGC), reportes
-              comunitarios verificados y otras actividades habilitadas por
-              RavaGx. Los RC pueden ser utilizados para apoyar a creadores de la
-              comunidad, desbloquear funciones, acceder a beneficios
-              promocionales y, eventualmente, ser canjeados por recompensas
-              conforme a la sección 3.5.3.
-            </p>
-            <h3 className="mb-2 text-lg font-semibold text-white/90">
-              3.5.3 Canje de Recompensas (Retiros)
-            </h3>
-            <p className="mb-3">
-              El canje de RC por recompensas monetarias (por ejemplo, vía Yape u
-              otra billetera digital habilitada) está sujeto a las siguientes
-              condiciones obligatorias:
-            </p>
-            <ul className="list-disc space-y-1.5 pl-6 mb-4">
-              <li>
-                <strong className="text-white">Mínimo de canje:</strong> Se
-                requiere un saldo mínimo de{" "}
-                <strong className="text-white">10,000 RC</strong> para iniciar
-                cualquier proceso de canje monetario.
-              </li>
-              <li>
-                Las recompensas constituyen una contraprestación por
-                <strong className="text-white">
-                  {" "}
-                  servicios de moderación, curaduría y generación de contenido
-                  (UGC){" "}
-                </strong>
-                prestados por el Usuario a favor del ecosistema RavaGx.
-              </li>
-              <li>
-                RavaGx se reserva el derecho{" "}
-                <strong className="text-white">unilateral</strong> de modificar
-                el tipo de canje, los mínimos, los topes mensuales, los
-                requisitos de verificación y las recompensas disponibles en
-                cualquier momento, sin que ello genere derecho a indemnización
-                alguna a favor del Usuario.
-              </li>
-              <li>
-                RavaGx podrá{" "}
-                <strong className="text-white">
-                  suspender, retener, auditar, revertir o cancelar
-                </strong>{" "}
-                canjes y saldos de RC ante sospechas razonables de fraude,
-                granjas de cuentas, uso de bots, multicuenta, lavado de activos,
-                suplantación de identidad o cualquier otro abuso del sistema,
-                sin necesidad de aviso previo.
-              </li>
-              <li>
-                El Usuario es el único responsable de proporcionar datos de
-                billetera correctos. RavaGx no se responsabiliza por canjes
-                enviados a números de Yape u otras billeteras incorrectamente
-                proporcionados por el Usuario.
-              </li>
-              <li>
-                RavaGx podrá solicitar verificación de identidad (KYC ligero)
-                como condición previa para procesar canjes, conforme a la
-                normativa aplicable de prevención de fraude.
-              </li>
-              <li>
-                Las recompensas pueden estar sujetas a las retenciones
-                tributarias que correspondan conforme a la legislación peruana.
-                El Usuario es el único responsable del cumplimiento de sus
-                obligaciones tributarias derivadas de la recepción de
-                recompensas.
-              </li>
-            </ul>
-            <h3 className="mb-2 text-lg font-semibold text-white/90">
-              3.5.4 Suspensión, Modificación o Terminación del Programa
-            </h3>
-            <p>
-              RavaGx se reserva el derecho de modificar, suspender o dar por
-              terminado el Programa de Recompensas RavaCoins en cualquier
-              momento. Los RC acumulados que no hayan sido canjeados al momento
-              de una eventual terminación del programa, o de la eliminación de
-              la cuenta por causa imputable al Usuario, caducarán sin derecho a
-              compensación.
-            </p>
-          </section>
-
-          {/* 3.6 — Report-to-Earn (PR) */}
-          <section>
-            <h2 className="mb-3 text-xl font-bold text-white">
-              3.6 Programa Report-to-Earn — Puntos de Reporte (PR)
-            </h2>
-            <h3 className="mb-2 text-lg font-semibold text-white/90">
-              3.6.1 Naturaleza jurídica de los PR
-            </h3>
-            <p className="mb-4">
-              Los Puntos de Reporte (&quot;PR&quot;) son{" "}
-              <strong className="text-white">
-                puntos de lealtad promocionales internos
-              </strong>{" "}
-              otorgados de forma discrecional por RavaGx en reconocimiento a la
-              participación del Usuario en el programa Report-to-Earn. Los PR{" "}
-              <strong className="text-white">NO constituyen</strong> dinero
-              electrónico (Ley N° 29985), moneda de curso legal, criptomonedas,
-              criptoactivos, valores mobiliarios, depósitos bancarios ni
-              instrumentos financieros de naturaleza alguna. Los PR carecen de
-              valor monetario fuera del ecosistema RavaGx, no son transferibles
-              entre cuentas, no son heredables, no devengan intereses y no son
-              reembolsables en efectivo salvo dentro de los mecanismos de canje
-              vigentes publicados por RavaGx. El saldo en PR del Usuario{" "}
-              <strong className="text-white">
-                no constituye un crédito firme exigible
-              </strong>{" "}
-              contra RavaGx Team.
-            </p>
-            <h3 className="mb-2 text-lg font-semibold text-white/90">
-              3.6.2 Tasa de cambio variable y mínimos de retiro
-            </h3>
-            <p className="mb-4">
-              RavaGx se reserva el derecho{" "}
-              <strong className="text-white">
-                absoluto, unilateral y discrecional
-              </strong>{" "}
-              de fijar, modificar, ajustar, suspender o eliminar — en cualquier
-              momento y{" "}
-              <strong className="text-white">sin previo aviso</strong> ni
-              necesidad de justificación: (i) la tasa de conversión de PR a
-              Soles (PEN) o a cualquier otro medio de canje; (ii) los montos
-              mínimos y máximos de retiro o canje; (iii) las comisiones
-              aplicables; (iv) las frecuencias permitidas de retiro; (v) las
-              plataformas de pago habilitadas (Yape, Plin u otras); (vi) las
-              categorías de reporte que generan PR y los multiplicadores
-              aplicables; (vii) la caducidad o expiración de los puntos por
-              inactividad. Cualquier modificación se aplicará tanto a los PR
-              futuros como a los acumulados pendientes de canje.
-            </p>
-            <h3 className="mb-2 text-lg font-semibold text-white/90">
-              3.6.3 Cláusula Antifraude, Anti-Farmeo y Baneo
-            </h3>
-            <p className="mb-3">
-              Constituyen infracciones graves que facultan a RavaGx a, sin
-              previo aviso ni indemnización, anular total o parcialmente los
-              PR/RC acumulados, retener pagos en proceso, suspender temporal o
-              permanentemente la cuenta (baneo), bloquear dispositivos, IPs y
-              medios de pago asociados, e iniciar las acciones legales que
-              correspondan:
-            </p>
-            <ul className="list-disc space-y-1.5 pl-6 mb-4">
-              <li>
-                Uso de emuladores, dispositivos virtualizados, dispositivos
-                rooteados o con jailbreak con fines de manipulación.
-              </li>
-              <li>
-                Uso de aplicaciones o técnicas de falsificación de ubicación
-                (Fake GPS, mock locations, spoofing de sensores).
-              </li>
-              <li>
-                Uso de bots, scripts, automatización, macros, granjas de
-                dispositivos o cualquier mecanismo no humano para generar
-                reportes o interacciones.
-              </li>
-              <li>
-                Coordinación entre dos o más cuentas para inflar artificialmente
-                reportes, votos, &quot;likes&quot;, validaciones o cualquier
-                métrica del programa (&quot;farmeo de interacciones&quot; o
-                &quot;granjas de likes&quot;).
-              </li>
-              <li>
-                Publicación de reportes falsos, duplicados, desactualizados,
-                inducidos o sin sustento real verificable.
-              </li>
-              <li>
-                Creación de cuentas múltiples (multi-accounting) por una misma
-                persona natural.
-              </li>
-              <li>
-                Uso de VPN, proxies o redirecciones de red para simular
-                ubicaciones distintas a la real.
-              </li>
-              <li>
-                Cualquier otra conducta que, a criterio razonable de RavaGx,
-                vulnere la integridad económica del programa o perjudique a
-                otros usuarios de buena fe.
-              </li>
-            </ul>
-            <p className="mb-4">
-              La determinación de la infracción se realizará con base en
-              evidencia algorítmica, telemetría del dispositivo, datos de
-              ubicación, patrones estadísticos y/o revisión humana, siendo la
-              decisión de RavaGx{" "}
-              <strong className="text-white">final e inapelable</strong>, salvo
-              error material manifiesto. Los fondos retenidos por aplicación de
-              esta cláusula no generan derecho a compensación, intereses ni
-              resarcimiento.
-            </p>
-            <h3 className="mb-2 text-lg font-semibold text-white/90">
-              3.6.4 Liquidez, sostenibilidad y fuerza mayor económica
-            </h3>
-            <p className="mb-4">
-              El programa Report-to-Earn opera bajo un modelo de economía
-              cerrada. RavaGx podrá pausar temporalmente los retiros, ampliar
-              los plazos de pago hasta por noventa (90) días calendario o
-              reestructurar el programa frente a eventos de iliquidez
-              transitoria, ataques masivos de fraude, cambios regulatorios,
-              decisiones de proveedores de pago (Yape, Plin, bancos) o supuestos
-              de fuerza mayor, sin que ello genere responsabilidad para RavaGx.
-            </p>
-            <h3 className="mb-2 text-lg font-semibold text-white/90">
-              3.6.5 Tributación
-            </h3>
-            <p>
-              El Usuario es el único responsable por las obligaciones
-              tributarias derivadas de los canjes recibidos, debiendo declarar
-              dichos importes ante la SUNAT cuando corresponda conforme a la
-              legislación peruana vigente.
             </p>
           </section>
 
@@ -527,8 +274,7 @@ export default function TermsOfService() {
               y explotar comercialmente — por cualquier medio conocido o por
               conocerse — la información del radar aportado, incluyendo
               coordenadas, tipología, descripciones y metadatos asociados, sin
-              obligación de compensación adicional al Usuario más allá, en su
-              caso, de los RavaCoins acreditados conforme al programa vigente.{" "}
+              obligación de compensación alguna al Usuario.{" "}
               <strong className="text-white">
                 RavaGx no garantiza la exactitud, vigencia ni completitud
               </strong>{" "}
@@ -537,9 +283,8 @@ export default function TermsOfService() {
               derivados de la confianza en dicha información. La publicación
               dolosa de radares falsos, inexistentes o maliciosamente mal
               ubicados constituye una infracción grave a estos Términos y dará
-              lugar al baneo permanente de la cuenta y a la pérdida de los RC
-              acumulados, sin perjuicio de las acciones legales que
-              correspondan.
+              lugar al baneo permanente de la cuenta, sin perjuicio de las
+              acciones legales que correspondan.
             </p>
             <h3 className="mb-2 text-lg font-semibold text-white/90">
               4.6 Exención de Responsabilidad sobre Multas e Infracciones
@@ -567,6 +312,27 @@ export default function TermsOfService() {
               en la información proporcionada por la Aplicación. El uso del
               Radar de Fotopapeletas no exime al conductor del cumplimiento
               íntegro de la normativa vial peruana.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              4.7 Uso de la Navegación GPS
+            </h3>
+            <p className="mb-4">
+              El servicio de navegación y mapas de RavaGx se proporciona
+              únicamente como una herramienta de asistencia. Las condiciones
+              reales del tráfico, la calzada y las señales de tránsito siempre
+              prevalecerán sobre las indicaciones de la aplicación. El usuario
+              asume toda la responsabilidad de conducir de forma segura.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              4.8 Alertas de Radares y Fotopapeletas
+            </h3>
+            <p>
+              Las alertas de radares, controles y peligros se basan en datos
+              comunitarios y bases de datos dinámicas. RavaGx no garantiza la
+              exactitud, actualización o disponibilidad del 100% de los radares.
+              RavaGx no se hace responsable en ningún caso por multas,
+              fotopapeletas, sanciones de tránsito o accidentes que el usuario
+              pueda sufrir mientras utiliza la aplicación.
             </p>
           </section>
 
@@ -748,12 +514,18 @@ export default function TermsOfService() {
           {/* 11 */}
           <section>
             <h2 className="mb-3 text-xl font-bold text-white">
-              11. Servicios Gratuitos y Futuros Servicios de Pago
+              11. Suscripciones PRO y Servicios Premium
             </h2>
+            <p className="mb-4">
+              RavaGx ofrece funciones básicas de forma gratuita y funciones
+              Premium opcionales bajo un modelo de suscripción (PRO).
+            </p>
             <p>
-              El uso actual de RavaGx es gratuito. En el futuro, podrán
-              ofrecerse servicios premium opcionales, informando previamente
-              precios y condiciones.
+              Las funciones Premium (ej. alertas en segundo plano, radares
+              nacionales) están sujetas a una suscripción de pago. Los pagos se
+              procesan a través de las tiendas oficiales (Google Play / App
+              Store). Las renovaciones son automáticas salvo que se cancelen 24
+              horas antes del fin del ciclo.
             </p>
           </section>
 

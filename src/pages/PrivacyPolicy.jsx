@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
           Política de Privacidad
         </h1>
         <p className="mb-4 text-sm text-ravagx-gray">
-          Última actualización: 2 de mayo de 2026 (v4.1.0)
+          Última actualización: 20 de junio de 2026 (v5.0.0)
         </p>
         <p className="mb-12 text-gray-300 leading-relaxed">
           RavaGx (&quot;nosotros&quot;, &quot;nuestro&quot;, &quot;la
@@ -103,19 +103,26 @@ export default function PrivacyPolicy() {
             </h3>
             <p className="mb-3">
               Para el correcto funcionamiento del{" "}
-              <strong className="text-white">Radar de Fotopapeletas</strong>, la
-              Aplicación recopila datos de{" "}
+              <strong className="text-white">
+                Motor de Navegación 3D y del Radar de Fotopapeletas
+              </strong>
+              , la Aplicación recopila datos de{" "}
               <strong className="text-white">
                 ubicación precisa en tiempo real
               </strong>{" "}
-              mediante un servicio en primer plano (Foreground Service) del
-              sistema operativo Android. Este servicio permite que el Radar
-              permanezca activo{" "}
+              mediante el GPS del dispositivo. Para las funciones PRO de alertas
+              por voz, la Aplicación requiere acceso a la{" "}
+              <strong className="text-white">
+                Ubicación en Segundo Plano (Background Location)
+              </strong>
+              , permiso indispensable para que el motor de alertas por voz siga
+              funcionando y te avise de radares y peligros{" "}
               <strong className="text-white">
                 incluso con la pantalla del dispositivo apagada
-              </strong>
-              , mostrando una notificación persistente que informa al usuario
-              que la ubicación está siendo utilizada.
+              </strong>{" "}
+              o con la aplicación en segundo plano. Mientras este servicio está
+              activo se muestra una notificación persistente que informa al
+              usuario que la ubicación está siendo utilizada.
             </p>
             <ul className="list-disc space-y-1.5 pl-6 mb-3">
               <li>
@@ -124,15 +131,18 @@ export default function PrivacyPolicy() {
               </li>
               <li>
                 <strong className="text-white">Momento de recopilación:</strong>{" "}
-                Mientras la aplicación está en uso (primer plano) y cuando el
-                Radar de Fotopapeletas está activo mediante Foreground Service.
+                Mientras la aplicación está en uso (primer plano) y, para las
+                funciones PRO, también en segundo plano (Background Location)
+                cuando el motor de alertas por voz o el Radar de Fotopapeletas
+                están activos.
               </li>
               <li>
                 <strong className="text-white">Cálculo efímero:</strong> La
-                distancia entre su posición y las cámaras de velocidad se
-                calcula de forma efímera exclusivamente para disparar las
-                alertas en tiempo real. No almacenamos ni registramos
-                historiales de rutas, trayectos ni recorridos del usuario.
+                distancia entre su posición y las cámaras de velocidad o
+                peligros se calcula de forma efímera exclusivamente para
+                disparar las alertas en tiempo real. No almacenamos ni
+                registramos historiales de rutas, trayectos ni recorridos del
+                usuario.
               </li>
               <li>
                 <strong className="text-white">
@@ -174,10 +184,15 @@ export default function PrivacyPolicy() {
             <p className="mb-4">
               <strong className="text-white">Permiso:</strong> La aplicación
               solicita su autorización explícita antes de acceder a su
-              ubicación. El permiso de ubicación en primer plano (Foreground
-              Service) se solicita por separado y es necesario para que el Radar
-              funcione con la pantalla apagada. Puede revocar estos permisos en
-              cualquier momento desde la configuración de su dispositivo.
+              ubicación. El permiso de{" "}
+              <strong className="text-white">
+                Ubicación en Segundo Plano (Background Location)
+              </strong>{" "}
+              se solicita por separado y es indispensable para que el motor de
+              alertas por voz y el Radar de Fotopapeletas (función PRO) funcionen
+              con la pantalla apagada o con la aplicación en segundo plano. Puede
+              revocar estos permisos en cualquier momento desde la configuración
+              de su dispositivo.
             </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
@@ -242,113 +257,6 @@ export default function PrivacyPolicy() {
               <li>Comentarios y votos en alertas de otros usuarios.</li>
               <li>Fotografías opcionales adjuntas a reportes viales.</li>
             </ul>
-
-            <h3 className="mb-2 text-lg font-semibold text-white/90">
-              1.7.1 Datos Financieros y de Pago (Programa RavaCoins)
-            </h3>
-            <p className="mb-3">
-              Para procesar los canjes del Programa de Recompensas RavaCoins
-              (RC), podríamos requerir y almacenar de forma temporal los
-              siguientes datos:
-            </p>
-            <ul className="list-disc space-y-1.5 pl-6 mb-3">
-              <li>
-                <strong className="text-white">
-                  Número de teléfono asociado a billeteras digitales
-                </strong>{" "}
-                (por ejemplo, Yape u otras habilitadas).
-              </li>
-              <li>
-                Nombre titular de la billetera (cuando sea requerido para la
-                liquidación).
-              </li>
-              <li>
-                Documento de identidad (DNI o CE) en supuestos de verificación
-                reforzada (KYC ligero) cuando el monto canjeado o el patrón de
-                actividad lo amerite, conforme a la normativa de prevención de
-                fraude.
-              </li>
-              <li>
-                Historial de transacciones de RC: créditos, débitos, canjes
-                solicitados, montos liquidados y fechas.
-              </li>
-            </ul>
-            <p className="mb-4">
-              <strong className="text-white">Finalidad estricta:</strong> Esta
-              información se utiliza{" "}
-              <strong className="text-white">
-                exclusivamente para la liquidación de la recompensa
-              </strong>
-              , la prevención de fraude, la trazabilidad de los pagos y el
-              cumplimiento de obligaciones legales y tributarias aplicables. No
-              se utiliza con fines publicitarios ni se cede a terceros ajenos al
-              proceso de liquidación. RavaGx no almacena claves, PINs ni
-              credenciales de acceso a billeteras digitales.
-            </p>
-
-            <h3 className="mb-2 text-lg font-semibold text-white/90">
-              1.7.2 Datos de GPS y Validación Antifraude (Programa
-              Report-to-Earn)
-            </h3>
-            <p className="mb-3">
-              Como parte del programa de recompensas{" "}
-              <strong className="text-white">Report-to-Earn</strong> (Puntos de
-              Reporte – PR), RavaGx recopila, procesa y analiza datos de{" "}
-              <strong className="text-white">
-                ubicación precisa (GPS) y velocidad
-              </strong>{" "}
-              del dispositivo, incluso cuando la aplicación se ejecuta en
-              segundo plano (background) mientras el usuario tiene activo el
-              Radar, el Botón Flotante o cualquier modo de reporte. Esta
-              recopilación se realiza con la finalidad estricta, lícita y
-              proporcional de:
-            </p>
-            <ul className="list-disc space-y-1.5 pl-6 mb-3">
-              <li>
-                Validar la{" "}
-                <strong className="text-white">
-                  autenticidad y geolocalización real
-                </strong>{" "}
-                de cada reporte (fotopapeletas, incidentes, operativos, radares
-                móviles), así como su consistencia espacio-temporal.
-              </li>
-              <li>
-                Detectar y prevenir fraude, suplantación de ubicación, uso de{" "}
-                <strong className="text-white">Fake GPS</strong>, emuladores,
-                dispositivos rooteados, automatización (bots/scripts), VPN
-                sospechosas y patrones de comportamiento anómalos incompatibles
-                con un desplazamiento humano real.
-              </li>
-              <li>
-                Calcular de manera justa la atribución de Puntos de Reporte (PR)
-                entre usuarios y evitar el{" "}
-                <strong className="text-white">&quot;farmeo&quot;</strong> o las
-                granjas de interacción coludidas.
-              </li>
-              <li>
-                Proteger la integridad económica del ecosistema y de los demás
-                usuarios de buena fe.
-              </li>
-            </ul>
-            <p className="mb-4">
-              RavaGx{" "}
-              <strong className="text-white">
-                no comercializa, vende ni cede a terceros con fines
-                publicitarios
-              </strong>{" "}
-              los historiales de ubicación recopilados con esta finalidad. Los
-              datos de validación antifraude se conservan únicamente por el
-              tiempo razonablemente necesario para auditar reportes, resolver
-              disputas, atender requerimientos legales y entrenar nuestros
-              modelos internos de detección de abuso. El Usuario, al activar el
-              Radar, el Botón Flotante o cualquier funcionalidad del programa
-              Report-to-Earn, otorga su{" "}
-              <strong className="text-white">
-                consentimiento expreso, informado e inequívoco
-              </strong>{" "}
-              para este tratamiento. La revocación del consentimiento implica la
-              imposibilidad de participar en el programa de recompensas.
-            </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
               1.8 Datos de uso (recopilación automática)
@@ -628,10 +536,12 @@ export default function PrivacyPolicy() {
                   </tr>
                   <tr>
                     <td className="py-2 pr-4">
-                      Ubicación en primer plano (Foreground Service)
+                      Ubicación en segundo plano (Background Location)
                     </td>
                     <td className="py-2 pr-4">
-                      Radar de Fotopapeletas activo con pantalla apagada
+                      Indispensable para el motor de alertas por voz y el Radar
+                      de Fotopapeletas (función PRO) con la pantalla apagada o la
+                      app en segundo plano
                     </td>
                     <td className="py-2">No</td>
                   </tr>
