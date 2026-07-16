@@ -70,7 +70,7 @@ function Hero() {
           <img
             src={mockup}
             alt="RavaGx App"
-            className="h-full w-full max-h-[600px] object-contain drop-shadow-[0_0_40px_rgba(255,77,41,0.15)]"
+            className="h-full w-full max-h-[800px] object-contain drop-shadow-[0_0_40px_rgba(255,77,41,0.15)]"
           />
         </div>
       </div>
