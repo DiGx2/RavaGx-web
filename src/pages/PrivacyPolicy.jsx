@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
           Política de Privacidad
         </h1>
         <p className="mb-4 text-sm text-ravagx-gray">
-          Última actualización: 20 de junio de 2026 (v5.0.0)
+          Última actualización: 16 de julio de 2026 (v5.2.0)
         </p>
         <p className="mb-12 text-gray-300 leading-relaxed">
           RavaGx (&quot;nosotros&quot;, &quot;nuestro&quot;, &quot;la
@@ -64,8 +64,8 @@ export default function PrivacyPolicy() {
             <p className="mb-2">
               Los datos ingresados por el Usuario en "Mi Cabina" y "Mi Garaje"
               se almacenan de forma segura para proveer recordatorios
-              personalizados, alertas tempranas y el funcionamiento del score
-              del vehículo. Estos incluyen:
+              personalizados, alertas tempranas y el funcionamiento del Score
+              de salud del vehículo. Estos incluyen:
             </p>
             <ul className="list-disc space-y-1.5 pl-6 mb-4">
               <li>
@@ -80,12 +80,18 @@ export default function PrivacyPolicy() {
                 Historial de kilometraje, recordatorios de mantenimiento y
                 eventos asociados al vehículo.
               </li>
+              <li>
+                Registros de gastos vehiculares (combustible, peajes,
+                estacionamiento, lavado, multas, trámites y otros) ingresados
+                voluntariamente por el Usuario en el Centro de Costos.
+              </li>
             </ul>
             <p className="mb-4">
               <strong className="text-white">Finalidad:</strong> Generar
-              alertas, recordatorios, el score del vehículo y métricas
-              referenciales dentro de Mi Cabina. Estos datos no se comparten
-              públicamente ni se venden a terceros.
+              alertas, recordatorios, el Score del vehículo, reportes
+              financieros y métricas referenciales dentro de Mi Cabina y
+              RavaCore Analytics. Estos datos no se comparten públicamente ni
+              se venden a terceros.
             </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
@@ -94,8 +100,9 @@ export default function PrivacyPolicy() {
             <p className="mb-4">
               Fotografías de documentos vehiculares (SOAT, tarjeta de propiedad,
               licencia, seguros) que usted sube voluntariamente. Estas imágenes
-              se almacenan de forma segura en servidores cifrados y solo usted
-              tiene acceso a ellas.
+              se almacenan de forma segura en servidores cifrados con políticas
+              de acceso a nivel de fila (Row Level Security) y solo usted tiene
+              acceso a ellas.
             </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
@@ -226,11 +233,11 @@ export default function PrivacyPolicy() {
             </p>
             <p className="mb-2">
               <strong className="text-white">Funcionamiento:</strong> Las
-              notificaciones push se entregan a través de Firebase Cloud
-              Messaging (FCM), un servicio del sistema operativo Android
-              proporcionado por Google. RavaGx no ejecuta procesos en segundo
-              plano. La entrega de notificaciones cuando la aplicación está
-              cerrada es gestionada nativamente por el servicio FCM de Android.
+              notificaciones push se entregan a través del servicio de
+              notificaciones de Expo (EAS) y Firebase Cloud Messaging (FCM), un
+              servicio del sistema operativo Android proporcionado por Google.
+              La entrega de notificaciones cuando la aplicación está cerrada es
+              gestionada nativamente por el servicio FCM de Android.
             </p>
             <p className="mb-2">Tipos de notificaciones:</p>
             <ul className="list-disc space-y-1.5 pl-6 mb-2">
@@ -256,6 +263,10 @@ export default function PrivacyPolicy() {
               </li>
               <li>Comentarios y votos en alertas de otros usuarios.</li>
               <li>Fotografías opcionales adjuntas a reportes viales.</li>
+              <li>
+                Radares fijos mapeados, publicados o editados mediante el
+                Editor de Radares Comunitario.
+              </li>
             </ul>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
@@ -297,9 +308,27 @@ export default function PrivacyPolicy() {
               <strong className="text-white">
                 estrictos estándares de seguridad
               </strong>{" "}
-              (cifrado en tránsito y en reposo) para prevenir el fraude
-              financiero. RavaGx no almacena claves, PINs ni credenciales de
-              acceso a billeteras digitales.
+              (cifrado en tránsito y en reposo). RavaGx no almacena claves,
+              PINs ni credenciales de acceso a billeteras digitales.
+            </p>
+
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              1.7.2 Suscripciones y Compras (RevenueCat)
+            </h3>
+            <p className="mb-4">
+              Para gestionar las suscripciones PRO y las compras integradas,
+              RavaGx utiliza RevenueCat, un procesador de infraestructura de
+              suscripciones. RevenueCat recibe un identificador anónimo de
+              usuario, el historial de transacciones de la tienda de
+              aplicaciones (Google Play / App Store) y metadatos del dispositivo
+              necesarios para validar los derechos de acceso (entitlements).
+              RavaGx{" "}
+              <strong className="text-white">
+                no recopila ni almacena números de tarjetas de crédito ni datos
+                de pago
+              </strong>
+              : todos los pagos se procesan directamente por Google Play o App
+              Store bajo sus propias políticas de privacidad.
             </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
@@ -317,7 +346,7 @@ export default function PrivacyPolicy() {
             </ul>
             <p className="mt-2 font-medium text-white">
               No utilizamos cookies, rastreadores de publicidad ni herramientas
-              de analítica de terceros.
+              de analítica publicitaria de terceros.
             </p>
           </section>
 
@@ -338,12 +367,25 @@ export default function PrivacyPolicy() {
                 Enviar recordatorios de mantenimiento vehicular predictivo.
               </li>
               <li>
+                Generar el Score de salud del vehículo, reportes financieros e
+                insights de RavaCore Analytics a partir de los datos ingresados
+                por el propio Usuario.
+              </li>
+              <li>
+                Generar, a solicitud del Usuario, archivos exportables en
+                formato PDF y Excel con sus propios datos.
+              </li>
+              <li>
                 Mostrar servicios mecánicos y de emergencia cercanos a su
                 ubicación.
               </li>
               <li>
                 Facilitar la comunicación entre usuarios en la sección
                 Comunidad.
+              </li>
+              <li>
+                Gestionar suscripciones PRO, compras y retiros de la Economía
+                RavaGx.
               </li>
               <li>Mejorar y personalizar la experiencia del usuario.</li>
               <li>Responder a solicitudes de soporte técnico.</li>
@@ -376,15 +418,25 @@ export default function PrivacyPolicy() {
               <div className="rounded-xl bg-ravagx-card p-4">
                 <p className="font-semibold text-white">Supabase</p>
                 <p className="text-sm">
-                  Función: Autenticación y base de datos. Datos compartidos:
-                  Credenciales cifradas, datos de perfil y vehículos.
+                  Función: Autenticación, base de datos y almacenamiento cifrado
+                  de documentos. Datos compartidos: Credenciales cifradas, datos
+                  de perfil, vehículos y documentos.
+                </p>
+              </div>
+              <div className="rounded-xl bg-ravagx-card p-4">
+                <p className="font-semibold text-white">RevenueCat</p>
+                <p className="text-sm">
+                  Función: Gestión de suscripciones PRO y compras integradas.
+                  Datos compartidos: Identificador anónimo de usuario e
+                  historial de transacciones de la tienda.
                 </p>
               </div>
               <div className="rounded-xl bg-ravagx-card p-4">
                 <p className="font-semibold text-white">Expo (EAS)</p>
                 <p className="text-sm">
-                  Función: Entrega de notificaciones push. Datos compartidos:
-                  Token del dispositivo (identificador anónimo).
+                  Función: Entrega de notificaciones push y servicios de build.
+                  Datos compartidos: Token del dispositivo (identificador
+                  anónimo).
                 </p>
               </div>
               <div className="rounded-xl bg-ravagx-card p-4">
@@ -404,6 +456,23 @@ export default function PrivacyPolicy() {
                   uso).
                 </p>
               </div>
+              <div className="rounded-xl bg-ravagx-card p-4">
+                <p className="font-semibold text-white">Mapbox</p>
+                <p className="text-sm">
+                  Función: Motor de mapas del Modo Navegación 3D. Datos
+                  compartidos: Coordenadas de ubicación (en uso).
+                </p>
+              </div>
+              <div className="rounded-xl bg-ravagx-card p-4">
+                <p className="font-semibold text-white">
+                  Google Play / App Store
+                </p>
+                <p className="text-sm">
+                  Función: Procesamiento de pagos de suscripciones y compras.
+                  Datos compartidos: Datos de pago (gestionados íntegramente
+                  por la tienda).
+                </p>
+              </div>
             </div>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
@@ -418,11 +487,25 @@ export default function PrivacyPolicy() {
             <h3 className="mb-2 text-lg font-semibold text-white/90">
               3.3 Contenido público
             </h3>
-            <p>
+            <p className="mb-4">
               Las alertas viales publicadas en la sección Comunidad (tipo de
               alerta, descripción, foto opcional y ubicación aproximada) son
               visibles para otros usuarios de RavaGx en la zona. Su nombre o
               datos de contacto no se muestran públicamente en las alertas.
+            </p>
+
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              3.4 Exportación de archivos (PDF / Excel)
+            </h3>
+            <p>
+              La Aplicación permite al Usuario generar y exportar reportes de
+              sus propios datos (gastos, mantenimientos, historial vehicular) en
+              formato PDF y Excel. Estos archivos se generan localmente o a
+              solicitud expresa del Usuario y se entregan únicamente al propio
+              Usuario, quien decide libremente con quién compartirlos. Una vez
+              exportado, el archivo queda bajo el control y responsabilidad
+              exclusiva del Usuario; RavaGx no se responsabiliza por la difusión
+              que el Usuario haga de sus propios archivos exportados.
             </p>
           </section>
 
@@ -455,7 +538,7 @@ export default function PrivacyPolicy() {
               </li>
               <li>
                 <strong className="text-white">Infraestructura:</strong> Centros
-                de datos con estándares de seguridad industriales.
+                de datos con estándares de seguridad industriales (Supabase).
               </li>
             </ul>
           </section>
@@ -515,7 +598,10 @@ export default function PrivacyPolicy() {
               <li>Acceso.</li>
               <li>Rectificación.</li>
               <li>Eliminación.</li>
-              <li>Portabilidad.</li>
+              <li>
+                Portabilidad (incluida la exportación de sus datos en PDF/Excel
+                desde la propia Aplicación).
+              </li>
               <li>Revocación de consentimiento.</li>
               <li>Oposición.</li>
             </ul>
@@ -590,6 +676,16 @@ export default function PrivacyPolicy() {
                     <td className="py-2">No</td>
                   </tr>
                   <tr>
+                    <td className="py-2 pr-4">
+                      Servicio en primer plano (Foreground Service)
+                    </td>
+                    <td className="py-2 pr-4">
+                      Mantener activa la navegación y el radar con notificación
+                      persistente visible
+                    </td>
+                    <td className="py-2">No</td>
+                  </tr>
+                  <tr>
                     <td className="py-2 pr-4">Cámara</td>
                     <td className="py-2 pr-4">
                       Fotografiar documentos vehiculares
@@ -599,7 +695,8 @@ export default function PrivacyPolicy() {
                   <tr>
                     <td className="py-2 pr-4">Almacenamiento / Galería</td>
                     <td className="py-2 pr-4">
-                      Seleccionar fotos de documentos existentes
+                      Seleccionar fotos de documentos existentes y guardar
+                      archivos exportados (PDF/Excel)
                     </td>
                     <td className="py-2">No</td>
                   </tr>
@@ -610,11 +707,21 @@ export default function PrivacyPolicy() {
                     </td>
                     <td className="py-2">No</td>
                   </tr>
+                  <tr>
+                    <td className="py-2 pr-4">Vibración</td>
+                    <td className="py-2 pr-4">
+                      Feedback háptico en alertas de proximidad
+                    </td>
+                    <td className="py-2">No</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
             <p className="mt-3 font-medium text-white">
               Ningún permiso se activa sin su autorización explícita previa.
+              RavaGx <strong>no</strong> solicita permisos de superposición
+              sobre otras aplicaciones (ventanas flotantes) ni permisos de uso
+              especial de servicios en segundo plano.
             </p>
           </section>
 
@@ -627,8 +734,8 @@ export default function PrivacyPolicy() {
               Nuestros servidores pueden estar ubicados fuera de su país de
               residencia. Al utilizar RavaGx, usted consiente la transferencia
               de sus datos a servidores donde operan nuestros proveedores de
-              infraestructura (Supabase, Google, Expo), los cuales cumplen
-              estándares internacionales de protección de datos.
+              infraestructura (Supabase, Google, Expo, RevenueCat, Mapbox), los
+              cuales cumplen estándares internacionales de protección de datos.
             </p>
           </section>
 

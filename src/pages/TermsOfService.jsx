@@ -12,7 +12,7 @@ export default function TermsOfService() {
           Términos y Condiciones de Uso
         </h1>
         <p className="mb-4 text-sm text-ravagx-gray">
-          Última actualización: 20 de junio de 2026 (v5.0.0)
+          Última actualización: 16 de julio de 2026 (v5.2.0)
         </p>
         <p className="mb-12 text-gray-300 leading-relaxed">
           Estos Términos y Condiciones (&quot;Términos&quot;) regulan el acceso
@@ -57,6 +57,24 @@ export default function TermsOfService() {
                 kilometraje del vehículo.
               </li>
               <li>
+                <strong className="text-white">RavaCore Analytics:</strong>{" "}
+                Motor de análisis que genera el Score de salud del vehículo,
+                reportes financieros, proyecciones e insights predictivos a
+                partir de los datos ingresados por el Usuario.
+              </li>
+              <li>
+                <strong className="text-white">Centro de Costos:</strong>{" "}
+                Registro de gastos vehiculares (combustible, peajes,
+                estacionamiento, lavado, multas, trámites y otros).
+              </li>
+              <li>
+                <strong className="text-white">
+                  Exportación de Reportes (PDF / Excel):
+                </strong>{" "}
+                Generación de archivos exportables con los datos propios del
+                Usuario.
+              </li>
+              <li>
                 <strong className="text-white">Comunidad:</strong> Red de
                 alertas viales en tiempo real generadas por los usuarios.
               </li>
@@ -85,7 +103,7 @@ export default function TermsOfService() {
               </li>
               <li>
                 <strong className="text-white">Mi Cabina Inteligente:</strong>{" "}
-                Panel operativo y financiero con score del vehículo, alertas
+                Panel operativo y financiero con Score del vehículo, alertas
                 tempranas de documentos y Tótem referencial de precios de
                 combustible.
               </li>
@@ -108,6 +126,12 @@ export default function TermsOfService() {
                 </strong>{" "}
                 Sistema de alertas referenciales de ubicación de cámaras de
                 velocidad y reportes comunitarios.
+              </li>
+              <li>
+                <strong className="text-white">
+                  Economía RavaGx (RavaCoins):
+                </strong>{" "}
+                Moneda virtual interna, donaciones P2P y retiros de ganancias.
               </li>
             </ul>
           </section>
@@ -353,15 +377,170 @@ export default function TermsOfService() {
               competentes.
             </p>
             <h3 className="mb-2 text-lg font-semibold text-white/90">
-              4.3 Predicciones de Mantenimiento
+              4.3 Limitación de Responsabilidad sobre Sugerencias y RavaCore
+              Analytics
+            </h3>
+            <p className="mb-4 font-semibold text-white">
+              ESTA SECCIÓN ES DE ACEPTACIÓN OBLIGATORIA Y CONSTITUYE UN ELEMENTO
+              ESENCIAL DEL ACUERDO ENTRE EL USUARIO Y RAVAGX. LÉALA CON
+              ATENCIÓN.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              4.3.1 Naturaleza estrictamente sugerente de los outputs
+              automatizados
             </h3>
             <p className="mb-4">
-              Las estimaciones se basan en algoritmos que analizan el historial
-              de kilometraje registrado por el Usuario. Son aproximaciones
-              orientativas y no sustituyen el diagnóstico profesional de un
-              mecánico certificado. RavaGx no se responsabiliza por fallas
-              mecánicas, averías o daños derivados de la confianza exclusiva en
-              estas predicciones.
+              El Usuario reconoce, declara y acepta de forma expresa, informada
+              e irrevocable que{" "}
+              <strong className="text-white">la totalidad</strong> de los
+              resultados, cálculos, visualizaciones y contenidos generados por
+              el motor RavaCore Analytics y por cualquier otro módulo
+              automatizado de la Aplicación — incluyendo, sin carácter
+              limitativo: (i) el{" "}
+              <strong className="text-white">Score de salud del vehículo</strong>
+              ; (ii) las{" "}
+              <strong className="text-white">
+                proyecciones de mantenimiento predictivo
+              </strong>
+              ; (iii) los{" "}
+              <strong className="text-white">
+                reportes financieros, resúmenes de gastos y análisis de costos
+              </strong>
+              ; (iv) los{" "}
+              <strong className="text-white">
+                insights predictivos, recomendaciones, alertas tempranas y
+                sugerencias
+              </strong>{" "}
+              de cualquier naturaleza; y (v) los archivos exportados en
+              PDF/Excel derivados de dichos datos — constituyen{" "}
+              <strong className="text-white">
+                estrictamente sugerencias automatizadas de carácter
+                referencial, orientativo y no vinculante
+              </strong>
+              , generadas mediante algoritmos que procesan{" "}
+              <strong className="text-white">
+                única y exclusivamente la información ingresada voluntariamente
+                por el propio Usuario
+              </strong>{" "}
+              (kilometrajes, gastos, fechas, características del vehículo y
+              demás datos declarados).
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              4.3.2 Dependencia del input del Usuario (principio &quot;garbage
+              in, garbage out&quot;)
+            </h3>
+            <p className="mb-4">
+              La exactitud, utilidad y pertinencia de cualquier output de
+              RavaCore Analytics depende íntegramente de la veracidad,
+              completitud y actualidad de los datos ingresados por el Usuario.
+              RavaGx no verifica, audita ni valida de forma independiente dichos
+              datos. Cualquier dato incorrecto, incompleto, desactualizado u
+              omitido por el Usuario invalidará total o parcialmente los
+              resultados generados, sin que ello genere responsabilidad alguna
+              para RavaGx.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              4.3.3 RavaGx NO sustituye el criterio profesional
+            </h3>
+            <p className="mb-4">
+              RavaGx{" "}
+              <strong className="text-white">
+                no reemplaza, sustituye ni equivale
+              </strong>{" "}
+              en ningún caso: (i) al diagnóstico, inspección o mantenimiento
+              realizado por un{" "}
+              <strong className="text-white">
+                mecánico profesional certificado
+              </strong>
+              ; (ii) al asesoramiento de un{" "}
+              <strong className="text-white">
+                contador, asesor financiero o profesional tributario
+              </strong>
+              ; (iii) a la consulta oficial ante entidades gubernamentales o
+              aseguradoras; ni (iv) al juicio prudente y diligente del propio
+              conductor. El Score de salud del vehículo es un indicador
+              sintético referencial y{" "}
+              <strong className="text-white">
+                no constituye una certificación técnica del estado real del
+                vehículo
+              </strong>{" "}
+              ni garantía alguna de su operatividad, seguridad o aptitud para
+              circular.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              4.3.4 Exclusión total de responsabilidad
+            </h3>
+            <p className="mb-3">
+              En la máxima medida permitida por la legislación aplicable,
+              RavaGx Team, sus fundadores, desarrolladores, colaboradores y
+              cualquier persona natural o jurídica vinculada al proyecto{" "}
+              <strong className="text-white">
+                NO asumen responsabilidad alguna — civil, penal,
+                administrativa, contractual ni extracontractual — por daños
+                directos, indirectos, incidentales, consecuentes o punitivos
+              </strong>{" "}
+              derivados de, o relacionados con, la confianza total o parcial
+              del Usuario en los outputs de RavaCore Analytics o en cualquier
+              otra sugerencia automatizada de la Aplicación, incluyendo, sin
+              carácter limitativo:
+            </p>
+            <ul className="list-disc space-y-1.5 pl-6 mb-4">
+              <li>
+                <strong className="text-white">
+                  Averías, fallas mecánicas, desperfectos o siniestros
+                </strong>{" "}
+                del vehículo, aun cuando el Score de salud, las proyecciones o
+                las alertas no los hubieran anticipado, los hubieran minimizado
+                o hubieran sugerido lo contrario.
+              </li>
+              <li>
+                <strong className="text-white">
+                  Accidentes de tránsito, lesiones personales, pérdida de vidas
+                  o daños materiales
+                </strong>{" "}
+                de cualquier índole.
+              </li>
+              <li>
+                <strong className="text-white">
+                  Multas, papeletas, sanciones administrativas o
+                  inmovilizaciones
+                </strong>{" "}
+                derivadas de documentos vencidos, información desactualizada o
+                alertas no recibidas o no atendidas.
+              </li>
+              <li>
+                <strong className="text-white">
+                  Decisiones financieras, de compra, venta, reparación,
+                  inversión o presupuesto
+                </strong>{" "}
+                tomadas por el Usuario en base a los reportes financieros,
+                proyecciones o insights de la Aplicación.
+              </li>
+              <li>
+                <strong className="text-white">
+                  Pérdidas económicas, lucro cesante o daño emergente
+                </strong>{" "}
+                de cualquier naturaleza vinculados al uso o a la imposibilidad
+                de uso de estas funcionalidades.
+              </li>
+            </ul>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              4.3.5 Responsabilidad exclusiva del conductor
+            </h3>
+            <p className="mb-4">
+              <strong className="text-white">
+                La responsabilidad total, única y exclusiva por el estado
+                mecánico del vehículo, su mantenimiento oportuno, la vigencia
+                de su documentación legal, la conducción segura y toda decisión
+                financiera u operativa recae en el conductor / Usuario.
+              </strong>{" "}
+              El uso de RavaGx presupone y exige que el Usuario continúe
+              realizando inspecciones mecánicas profesionales periódicas,
+              verificaciones documentales ante las autoridades competentes y
+              una gestión financiera diligente, con total independencia de lo
+              que la Aplicación muestre, sugiera o proyecte. Si el Usuario no
+              está dispuesto a aceptar esta asignación de responsabilidad, debe
+              abstenerse de utilizar la Aplicación.
             </p>
             <h3 className="mb-2 text-lg font-semibold text-white/90">
               4.4 Modo SOS y Alertas de Emergencia
@@ -386,7 +565,7 @@ export default function TermsOfService() {
             </h3>
             <p className="mb-4">
               Los datos provistos en "Mi Cabina" — incluyendo, sin limitarse a,
-              fechas de vencimiento de documentos, score del vehículo,
+              fechas de vencimiento de documentos, Score del vehículo,
               recordatorios y precios de combustible mostrados en el Tótem — son{" "}
               <strong className="text-white">
                 meramente referenciales y de carácter informativo
@@ -473,13 +652,30 @@ export default function TermsOfService() {
             <h3 className="mb-2 text-lg font-semibold text-white/90">
               4.8 Alertas de Radares y Fotopapeletas
             </h3>
-            <p>
+            <p className="mb-4">
               Las alertas de radares, controles y peligros se basan en datos
               comunitarios y bases de datos dinámicas. RavaGx no garantiza la
               exactitud, actualización o disponibilidad del 100% de los radares.
               RavaGx no se hace responsable en ningún caso por multas,
               fotopapeletas, sanciones de tránsito o accidentes que el usuario
               pueda sufrir mientras utiliza la aplicación.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              4.9 Exportación de Archivos (PDF / Excel)
+            </h3>
+            <p>
+              Los reportes exportados en PDF y Excel son una representación de
+              los datos ingresados por el propio Usuario y de los cálculos
+              referenciales de la Aplicación al momento de la generación. Dichos
+              archivos{" "}
+              <strong className="text-white">
+                no constituyen documentos contables, tributarios, periciales ni
+                oficiales
+              </strong>{" "}
+              de ninguna naturaleza, y no son válidos como sustento ante
+              autoridades, aseguradoras o terceros. La custodia, uso y difusión
+              de los archivos exportados es responsabilidad exclusiva del
+              Usuario.
             </p>
           </section>
 
@@ -570,8 +766,9 @@ export default function TermsOfService() {
             </h3>
             <p className="mb-4">
               Todo el contenido, diseño, interfaz, logotipos, marcas, código
-              fuente, algoritmos y bases de datos son propiedad exclusiva de
-              RavaGx Team y están protegidos por ley.
+              fuente, algoritmos — incluyendo el motor RavaCore Analytics — y
+              bases de datos son propiedad exclusiva de RavaGx Team y están
+              protegidos por ley.
             </p>
             <h3 className="mb-2 text-lg font-semibold text-white/90">
               7.2 Restricciones
@@ -615,7 +812,11 @@ export default function TermsOfService() {
                 <ul className="list-disc pl-6 mt-1.5 space-y-1">
                   <li>Uso o imposibilidad de uso de la Aplicación.</li>
                   <li>Fallas mecánicas no previstas.</li>
-                  <li>Información incorrecta de terceros.</li>
+                  <li>
+                    Información incorrecta de terceros o de proveedores de
+                    infraestructura (Supabase, Google, Expo, RevenueCat,
+                    Mapbox).
+                  </li>
                   <li>Pérdida de datos fuera de su control.</li>
                   <li>Acciones de proveedores de servicios vehiculares.</li>
                   <li>Interrupciones por mantenimiento o fuerza mayor.</li>
@@ -625,7 +826,10 @@ export default function TermsOfService() {
             <p>
               La responsabilidad total de RavaGx no excederá lo pagado por el
               Usuario en los últimos 12 meses o el equivalente a 1 dólar
-              estadounidense, lo que sea mayor.
+              estadounidense, lo que sea mayor. Esta limitación es
+              complementaria y no restringe la exclusión específica establecida
+              en la Sección 4.3 (Limitación de Responsabilidad sobre
+              Sugerencias y RavaCore Analytics).
             </p>
           </section>
 
@@ -667,13 +871,27 @@ export default function TermsOfService() {
               RavaGx ofrece funciones básicas de forma gratuita y funciones
               Premium opcionales bajo un modelo de suscripción (PRO).
             </p>
-            <p>
-              Las funciones Premium (ej. alertas en segundo plano, radares
-              nacionales) están sujetas a una suscripción de pago. Los pagos se
-              procesan a través de las tiendas oficiales (Google Play / App
-              Store). Las renovaciones son automáticas salvo que se cancelen 24
-              horas antes del fin del ciclo.
-            </p>
+            <ul className="list-disc space-y-1.5 pl-6">
+              <li>
+                Las funciones Premium (ej. alertas por voz en segundo plano,
+                radares nacionales, RavaCore Analytics avanzado) están sujetas
+                a una suscripción de pago.
+              </li>
+              <li>
+                Los pagos se procesan a través de las tiendas oficiales (Google
+                Play / App Store). La gestión de derechos de acceso
+                (entitlements) se realiza mediante la plataforma RevenueCat.
+              </li>
+              <li>
+                Las renovaciones son automáticas salvo que se cancelen al menos
+                24 horas antes del fin del ciclo de facturación vigente, desde
+                la configuración de suscripciones de su tienda de aplicaciones.
+              </li>
+              <li>
+                Los precios pueden variar según región y pueden ser modificados
+                con notificación previa a través de la tienda correspondiente.
+              </li>
+            </ul>
           </section>
 
           {/* 12 */}

@@ -14,10 +14,10 @@ import {
   Car,
   Gauge,
   Radar,
-  LayoutDashboard,
-  Coins,
+  BarChart3,
+  FileSpreadsheet,
+  Lightbulb,
   Sparkles,
-  Navigation,
 } from "lucide-react";
 import mockup from "./assets/mockup.png";
 
@@ -188,25 +188,25 @@ function Features() {
    ────────────────────────────────────────────── */
 const newFeatures = [
   {
-    icon: Navigation,
-    badge: "Navegación 3D",
-    title: "Mapa de Navegación V1",
+    icon: BarChart3,
+    badge: "Analytics",
+    title: "RavaCore Analytics",
     description:
-      "Hemos reescrito nuestro motor desde cero. Disfruta de un mapa 3D fluido, seguimiento GPS de alta precisión y un modo apaisado inteligente. RavaGx ahora es un navegador completo que te guía calle a calle mientras te alerta de peligros en tiempo real.",
+      "Tu copiloto analítico y financiero. Descubre el costo real por kilómetro y visualiza el equilibrio de tu vehículo con nuestro exclusivo motor de puntuación (Score).",
   },
   {
-    icon: LayoutDashboard,
+    icon: FileSpreadsheet,
+    badge: "PDF / Excel",
+    title: "Exportación Profesional",
+    description:
+      "Lleva tus registros al siguiente nivel. Exporta el historial operativo y financiero de tu vehículo en PDF o Excel. Ideal para sustentar gastos o potenciar la venta de tu auto.",
+  },
+  {
+    icon: Lightbulb,
     badge: "Nuevo",
-    title: "Mi Cabina Inteligente",
+    title: "Insights & Garaje Digital",
     description:
-      "Tu copiloto financiero y operativo. Controla el score de tu vehículo, recibe alertas tempranas de tus documentos (SOAT, revisiones) y descubre en tiempo real el Tótem de precios para ahorrar en cada galón de combustible.",
-  },
-  {
-    icon: Coins,
-    badge: "Economía",
-    title: "Economía RavaGx (Ravacoins)",
-    description:
-      "La comunidad te recompensa. Recibe donaciones en RavaCoins (RC) de otros conductores en agradecimiento por tus reportes. Acumula ganancias y retíralas directo a tu Yape. O recarga tu saldo para apoyar a los mejores copilotos de la ruta.",
+      "Recibe sugerencias y diagnósticos predictivos de mantenimiento basados en tus registros. Personaliza tu garaje subiendo fotos reales de tus vehículos.",
   },
 ];
 
@@ -218,7 +218,7 @@ function NewFeatures() {
         <div className="mb-12 flex flex-col items-center text-center">
           <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-ravagx-orange/40 bg-ravagx-orange/10 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-ravagx-orange">
             <Sparkles className="h-3.5 w-3.5" />
-            Versión 5.0.0 — Ya disponible
+            Versión 5.2.0 — Ya disponible
           </span>
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
             Las nuevas{" "}
@@ -253,6 +253,13 @@ function NewFeatures() {
           no son reembolsables. Las ganancias obtenidas por donaciones de
           terceros están sujetas a un mínimo de retiro de S/ 10.00 vía Yape.
           Tiempos de procesamiento y políticas antifraude aplican.
+        </p>
+        <p className="mt-3 text-center text-xs text-ravagx-gray/70">
+          *Las proyecciones, métricas de salud (Score) e insights predictivos
+          de RavaCore son sugerencias automatizadas. Tienen un fin puramente
+          referencial y no sustituyen el diagnóstico de un mecánico
+          profesional. La responsabilidad del mantenimiento y cualquier
+          decisión tomada recae estrictamente en el conductor.
         </p>
       </div>
     </section>
