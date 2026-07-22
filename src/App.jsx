@@ -192,7 +192,7 @@ const newFeatures = [
     badge: "Analytics",
     title: "RavaCore Analytics",
     description:
-      "Tu copiloto analítico y financiero. Descubre el costo real por kilómetro y visualiza el equilibrio de tu vehículo con nuestro exclusivo motor de puntuación (Score).",
+      "Tu copiloto analítico y financiero, ahora con modelos matemáticos e historial append-only. Descubre el costo real por kilómetro y visualiza el equilibrio de tu vehículo con el Score.",
   },
   {
     icon: FileSpreadsheet,
@@ -206,7 +206,7 @@ const newFeatures = [
     badge: "Nuevo",
     title: "Insights & Garaje Digital",
     description:
-      "Recibe sugerencias y diagnósticos predictivos de mantenimiento basados en tus registros. Personaliza tu garaje subiendo fotos reales de tus vehículos.",
+      "Recibe sugerencias del Copiloto Inteligente, diagnósticos predictivos y mantén tu Ledger de kilometraje siempre auditado. Personaliza tu garaje con fotos reales de tus vehículos.",
   },
 ];
 
@@ -218,7 +218,7 @@ function NewFeatures() {
         <div className="mb-12 flex flex-col items-center text-center">
           <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-ravagx-orange/40 bg-ravagx-orange/10 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-ravagx-orange">
             <Sparkles className="h-3.5 w-3.5" />
-            Versión 5.2.0 — Ya disponible
+            Versión 5.3.0 — Ya disponible
           </span>
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
             Las nuevas{" "}
@@ -255,11 +255,12 @@ function NewFeatures() {
           Tiempos de procesamiento y políticas antifraude aplican.
         </p>
         <p className="mt-3 text-center text-xs text-ravagx-gray/70">
-          *Las proyecciones, métricas de salud (Score) e insights predictivos
-          de RavaCore son sugerencias automatizadas. Tienen un fin puramente
-          referencial y no sustituyen el diagnóstico de un mecánico
-          profesional. La responsabilidad del mantenimiento y cualquier
-          decisión tomada recae estrictamente en el conductor.
+          *Las proyecciones, métricas de salud (Score), insights predictivos
+          de RavaCore y recomendaciones del Copiloto Inteligente son
+          sugerencias automatizadas. Tienen un fin puramente referencial y no
+          sustituyen el diagnóstico de un mecánico profesional. La
+          responsabilidad del mantenimiento y cualquier decisión tomada recae
+          estrictamente en el conductor.
         </p>
       </div>
     </section>
