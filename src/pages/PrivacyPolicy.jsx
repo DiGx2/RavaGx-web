@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
           Política de Privacidad
         </h1>
         <p className="mb-4 text-sm text-ravagx-gray">
-          Última actualización: 16 de julio de 2026 (v5.2.0)
+          Última actualización: 22 de julio de 2026 (v5.3.0)
         </p>
         <p className="mb-12 text-gray-300 leading-relaxed">
           RavaGx (&quot;nosotros&quot;, &quot;nuestro&quot;, &quot;la
@@ -77,8 +77,10 @@ export default function PrivacyPolicy() {
                 Técnica, Licencia de Conducir, seguros).
               </li>
               <li>
-                Historial de kilometraje, recordatorios de mantenimiento y
-                eventos asociados al vehículo.
+                Historial de kilometraje, lecturas del odómetro, viajes
+                confirmados, correcciones, reinicios de tablero,
+                recordatorios de mantenimiento y eventos asociados al
+                vehículo.
               </li>
               <li>
                 Registros de gastos vehiculares (combustible, peajes,
@@ -92,6 +94,33 @@ export default function PrivacyPolicy() {
               financieros y métricas referenciales dentro de Mi Cabina y
               RavaCore Analytics. Estos datos no se comparten públicamente ni
               se venden a terceros.
+            </p>
+
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              1.2.1 Ledger Declarativo (Historial Append-Only)
+            </h3>
+            <p className="mb-4">
+              A partir de la versión 5.3.0, RavaGx conserva las lecturas del
+              odómetro, los viajes confirmados, las correcciones y los
+              reinicios de tablero en un{" "}
+              <strong className="text-white">
+                historial auditable append-only
+              </strong>
+              . Cuando el Usuario corrige un kilometraje, el registro anterior
+              no se elimina físicamente: queda marcado como supersedido y el
+              historial permanece íntegro. Estos datos se conservan mientras la
+              cuenta esté activa y sean necesarios para proveer el Servicio,
+              con las siguientes finalidades: (i) mantener la trazabilidad y
+              consistencia del historial vehicular; (ii) prevenir fraudes o
+              pérdida de información; (iii) alimentar los modelos matemáticos
+              del Copiloto Inteligente y RavaCore Analytics; y (iv) atender
+              requerimientos legales o de auditoría. Esta conservación de
+              versiones anteriores{" "}
+              <strong className="text-white">
+                no implica una mayor exposición pública del Usuario
+              </strong>
+              ; sigue siendo información privada accesible únicamente por el
+              propio Usuario.
             </p>
 
             <h3 className="mb-2 text-lg font-semibold text-white/90">
@@ -372,6 +401,11 @@ export default function PrivacyPolicy() {
                 por el propio Usuario.
               </li>
               <li>
+                Ejecutar los modelos matemáticos del Copiloto Inteligente,
+                incluyendo proyecciones de mantenimiento, estimaciones de
+                kilometraje y recomendaciones referenciales.
+              </li>
+              <li>
                 Generar, a solicitud del Usuario, archivos exportables en
                 formato PDF y Excel con sus propios datos.
               </li>
@@ -569,11 +603,13 @@ export default function PrivacyPolicy() {
             <ul className="list-disc space-y-1.5 pl-6 mb-4">
               <li>
                 Se borran permanentemente todos sus datos personales, vehículos,
-                documentos, historial y contenido generado.
+                documentos, historial y contenido generado, salvo aquellos
+                que la ley aplicable exija conservar.
               </li>
               <li>
                 Los datos son eliminados de nuestros servidores y bases de
-                datos.
+                datos en el plazo que la ley permita, salvo obligaciones
+                legales de retención.
               </li>
               <li>Esta acción es irreversible y no se puede deshacer.</li>
             </ul>

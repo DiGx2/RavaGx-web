@@ -12,7 +12,7 @@ export default function TermsOfService() {
           Términos y Condiciones de Uso
         </h1>
         <p className="mb-4 text-sm text-ravagx-gray">
-          Última actualización: 16 de julio de 2026 (v5.2.0)
+          Última actualización: 22 de julio de 2026 (v5.3.0)
         </p>
         <p className="mb-12 text-gray-300 leading-relaxed">
           Estos Términos y Condiciones (&quot;Términos&quot;) regulan el acceso
@@ -61,6 +61,14 @@ export default function TermsOfService() {
                 Motor de análisis que genera el Score de salud del vehículo,
                 reportes financieros, proyecciones e insights predictivos a
                 partir de los datos ingresados por el Usuario.
+              </li>
+              <li>
+                <strong className="text-white">Copiloto Inteligente (IA):</strong>{" "}
+                Asistente basado en modelos matemáticos que analiza evidencia
+                histórica, calcula el Score del vehículo, proyecta
+                mantenimientos, estima kilometraje futuro y genera
+                recomendaciones y proyecciones financieras de carácter
+                referencial.
               </li>
               <li>
                 <strong className="text-white">Centro de Costos:</strong>{" "}
@@ -543,6 +551,26 @@ export default function TermsOfService() {
               abstenerse de utilizar la Aplicación.
             </p>
             <h3 className="mb-2 text-lg font-semibold text-white/90">
+              4.3.6 Copiloto Inteligente (IA)
+            </h3>
+            <p className="mb-4">
+              Desde la versión 5.3.0, RavaGx incorpora un{" "}
+              <strong className="text-white">
+                Copiloto Inteligente basado en modelos matemáticos
+              </strong>
+              . El Copiloto: (i) analiza la evidencia histórica declarada por el
+              Usuario; (ii) calcula el Score del vehículo; (iii) proyecta
+              mantenimientos; (iv) estima kilometraje futuro; y (v) genera
+              recomendaciones y proyecciones financieras.{" "}
+              <strong className="text-white">
+                Estos outputs son asistencia al usuario y no constituyen
+                diagnóstico mecánico, inspección profesional, asesoramiento
+                financiero ni certificación técnica.
+              </strong>{" "}
+              El usuario sigue siendo el único responsable del mantenimiento,
+              la operatividad y la toma de decisiones sobre su vehículo.
+            </p>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
               4.4 Modo SOS y Alertas de Emergencia
             </h3>
             <p className="mb-4">
@@ -679,6 +707,62 @@ export default function TermsOfService() {
             </p>
           </section>
 
+          <section>
+            <h2 className="mb-3 text-xl font-bold text-white">
+              4.10 Integridad del Historial y Ledger Declarativo
+            </h2>
+            <p className="mb-4">
+              RavaGx utiliza un{" "}
+              <strong className="text-white">historial append-only</strong>{" "}
+              para proteger la trazabilidad de los datos vehiculares. Las lecturas
+              del odómetro, los viajes confirmados, las correcciones y los
+              reinicios de tablero forman parte de un registro auditable. Cuando
+              el Usuario corrige un kilometraje, el registro anterior no se
+              elimina físicamente: queda marcado como supersedido y el
+              historial permanece íntegro. Este funcionamiento es normal del
+              sistema, no implica una mayor exposición pública del Usuario y
+              ayuda a prevenir fraudes o pérdida de información.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-3 text-xl font-bold text-white">
+              4.11 Predicciones y Estimaciones
+            </h2>
+            <p className="mb-4">
+              Las proyecciones, estimaciones de kilometraje futuro,
+              recomendaciones de mantenimiento y cálculos financieros generados
+              por RavaGx pueden{" "}
+              <strong className="text-white">
+                cambiar cuando se disponga de nueva evidencia
+              </strong>
+              . Su precisión depende de la calidad, veracidad y actualidad de
+              los datos ingresados por el Usuario. RavaGx{" "}
+              <strong className="text-white">
+                nunca garantiza resultados futuros
+              </strong>
+              ; los outputs son referenciales y deben contrastarse con el
+              criterio profesional del conductor.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-3 text-xl font-bold text-white">
+              4.12 Actualizaciones del Algoritmo
+            </h2>
+            <p className="mb-4">
+              Las futuras versiones de RavaGx podrán{" "}
+              <strong className="text-white">
+                mejorar los algoritmos de análisis
+              </strong>{" "}
+              sin modificar el historial declarado por el Usuario. En
+              consecuencia, las recomendaciones, proyecciones y Score del
+              vehículo pueden variar entre versiones como resultado de mejoras
+              del sistema. El historial del Usuario seguirá siendo el mismo; lo
+              que evoluciona es la forma en que se interpreta y presenta.
+            </p>
+          </section>
+
           {/* 5 */}
           <section>
             <h2 className="mb-3 text-xl font-bold text-white">
@@ -708,6 +792,19 @@ export default function TermsOfService() {
                 Respetar los derechos de otros usuarios y las leyes aplicables.
               </li>
             </ul>
+            <h3 className="mb-2 mt-6 text-lg font-semibold text-white/90">
+              5.1 Veracidad de los datos declarados
+            </h3>
+            <p>
+              El Usuario es responsable de la veracidad, completitud y
+              actualidad de toda la información registrada en RavaGx. Ingresar
+              datos falsos, incompletos o incorrectos puede afectar la
+              precisión del Score, las recomendaciones, las proyecciones
+              financieras y cualquier otro output del Copiloto Inteligente y
+              RavaCore Analytics. RavaGx no verifica independientemente los
+              datos ingresados ni asume responsabilidad por las consecuencias
+              de datos erróneos.
+            </p>
           </section>
 
           {/* 6 */}
@@ -821,6 +918,48 @@ export default function TermsOfService() {
                   <li>Acciones de proveedores de servicios vehiculares.</li>
                   <li>Interrupciones por mantenimiento o fuerza mayor.</li>
                 </ul>
+              </li>
+            </ul>
+            <h3 className="mb-2 text-lg font-semibold text-white/90">
+              8.1 Riesgos excluidos de responsabilidad
+            </h3>
+            <p className="mb-3">
+              RavaGx no será responsable por:
+            </p>
+            <ul className="list-disc space-y-1.5 pl-6 mb-3">
+              <li>
+                <strong className="text-white">Averías mecánicas</strong> o
+                fallas del vehículo.
+              </li>
+              <li>
+                <strong className="text-white">Accidentes</strong> de tránsito,
+                lesiones o daños materiales.
+              </li>
+              <li>
+                <strong className="text-white">
+                  Pérdida de valor comercial
+                </strong>{" "}
+                del vehículo.
+              </li>
+              <li>
+                <strong className="text-white">Decisiones económicas</strong>,
+                de inversión, compra, venta o reparación.
+              </li>
+              <li>
+                <strong className="text-white">Multas</strong>, papeletas o
+                sanciones administrativas.
+              </li>
+              <li>
+                <strong className="text-white">
+                  Incumplimientos de mantenimiento
+                </strong>{" "}
+                por no seguir recomendaciones o alertas.
+              </li>
+              <li>
+                <strong className="text-white">
+                  Daños derivados de información incorrecta
+                </strong>{" "}
+                proporcionada por el Usuario o por terceros.
               </li>
             </ul>
             <p>
